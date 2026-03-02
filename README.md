@@ -1,6 +1,6 @@
 # 🤖 AI Engineer Journey
 
-> Documenting my journey from absolute zero to becoming a professional AI Engineer. Every line of code, every struggle, every breakthrough — in public.
+> Documenting my path from data operations leader to AI Engineer. 8 years in streaming/OTT metadata systems at Nielsen & Simply.TV. Now learning to build the AI that powers those systems.
 
 ---
 
@@ -8,82 +8,86 @@
 
 | | |
 |---|---|
-| **Started** | February 14, 2026 |
-| **Goal** | AI / ML Engineer role |
+| **Started** | March 2, 2026 |
+| **Goal** | AI/ML Engineer role in streaming/OTT |
 | **Daily Time** | 1–2 hours/day |
-| **Background** | Complete beginner — never coded before |
-| **Timeline** | 12–18 months |
+| **Background** | 8 years: data pipelines, metadata operations, SLA-driven systems |
+| **Timeline** | 8 months (accelerated track) |
 
-I'm following a structured 5-phase roadmap. This repo is my accountability system, portfolio, and learning log — all in one.
+I'm not a complete beginner — I'm a **data operations leader pivoting into AI engineering**. This repo tracks my accelerated learning path, tailored to my streaming/OTT domain expertise.
 
 ---
 
 ## 📍 Current Status
 
-**Phase 1 — Foundations** `[IN PROGRESS]`
-
+**Phase 1 — Foundations (Accelerated)** `[Week 1 of 6 — IN PROGRESS]`
 ```
-Phase 1: Foundations          ████████░░░░░░░░░░░░  Week 1 of 12
-Phase 2: Machine Learning     ░░░░░░░░░░░░░░░░░░░░  Locked
-Phase 3: Deep Learning        ░░░░░░░░░░░░░░░░░░░░  Locked
-Phase 4: LLMs & GenAI         ░░░░░░░░░░░░░░░░░░░░  Locked
-Phase 5: Production & MLOps   ░░░░░░░░░░░░░░░░░░░░  Locked
+Phase 1: Foundations (6wks)    ████░░░░░░░░░░░░░░░░  Week 1 of 6
+Phase 2: Machine Learning      ░░░░░░░░░░░░░░░░░░░░  Locked
+Phase 3: Deep Learning         ░░░░░░░░░░░░░░░░░░░░  Locked
+Phase 4: LLMs & GenAI          ░░░░░░░░░░░░░░░░░░░░  Locked
+Phase 5: Production & MLOps    ░░░░░░░░░░░░░░░░░░░░  Locked
 ```
 
 ---
 
-## 🗺️ The Roadmap
+## 🗺️ The Accelerated Roadmap
 
-| Phase | Focus | Duration | Status |
-|-------|-------|----------|--------|
-| 1 | Python, Math, Data Essentials | 3 months | 🟡 In Progress |
-| 2 | Classical Machine Learning | 3 months | 🔒 Locked |
-| 3 | Deep Learning & PyTorch | 3 months | 🔒 Locked |
-| 4 | LLMs, RAG, Agents, GenAI | 3 months | 🔒 Locked |
-| 5 | Production, MLOps, Deployment | 2–3 months | 🔒 Locked |
+| Phase | Focus | Duration | Why Accelerated |
+|-------|-------|----------|-----------------|
+| 1 | Python, Math, Data | **6 weeks** | I already know SQL, data systems, and pipelines — skipping basics |
+| 2 | Classical ML | 6 weeks | Building recommendation engines, churn models for streaming |
+| 3 | Deep Learning | 6 weeks | Video classification, content analysis for OTT |
+| 4 | LLMs & GenAI | 6 weeks | Metadata enrichment, semantic search, RAG over catalogs |
+| 5 | Production MLOps | 4 weeks | Real-time inference, model monitoring (I already know ops!) |
+
+**Total: 8 months** instead of the standard 18-month beginner path.
 
 ---
 
-## 📁 Phase 1 — Foundations
+## 📁 Phase 1 Progress
 
-### Week-by-Week Progress
+### Week 1: Python Fundamentals
+- [x] Calculator
+- [x] EPG Time Calculator
+- [ ] Metadata Validator (next)
 
-- [x] **Week 1** — Python basics: variables, types, operators, print
-- [ ] **Week 2** — Logic & loops: if/else, for, while
-- [ ] **Week 3** — Functions & data structures: lists, dicts, functions
-- [ ] **Week 4** — OOP: classes, inheritance, methods
-- [ ] **Week 5** — Files & error handling: JSON, try/except, modules
-- [ ] **Week 6** — Advanced Python: decorators, generators, Git
-- [ ] **Week 7** — Linear Algebra with NumPy
-- [ ] **Week 8** — Calculus & gradient descent from scratch
-- [ ] **Week 9** — Statistics & probability
-- [ ] **Week 10** — Pandas for data analysis
-- [ ] **Week 11** — Data visualization (Matplotlib, Seaborn) + SQL
-- [ ] **Week 12** — Phase 1 capstone: full EDA project
+### Weeks 2-6: Coming Soon
+- Week 2: OOP & File I/O
+- Week 3: APIs & Data Pipelines
+- Week 4: Math for AI
+- Week 5: Statistics & Pandas
+- Week 6: Capstone — Metadata Quality Monitor
 
-### Phase 1 Projects
+---
+
+## 🛠️ Projects Built
+
 | Project | Week | Stack | Status |
 |---------|------|-------|--------|
-| BMI Calculator | W1 | Python | ✅ Done |
-| Number Guessing Game | W2 | Python | ⏳ Pending |
-| Contact Book | W3 | Python | ⏳ Pending |
-| Library System (OOP) | W4 | Python OOP | ⏳ Pending |
-| Finance CLI App | W6 | Python, JSON | ⏳ Pending |
-| Linear Regression Scratch | W8 | NumPy | ⏳ Pending |
-| EDA Report | W12 | Pandas, Matplotlib | ⏳ Pending |
+| Calculator | W1 | Python | ✅ Done |
+| EPG Time Calculator | W1 | Python, datetime | ✅ Done |
+| Metadata Validator | W1 | Python, CSV | ⏳ Next |
 
 ---
 
-## 📓 Devlog Highlights
+## 📓 Learning Log
 
 > Full devlog → [`phase-1-foundations/DEVLOG.md`](./phase-1-foundations/DEVLOG.md)
 
-**Week 1 entry:** *(update each week)*
-```
-Hardest thing: understanding the difference between = and ==
-Proudest thing: built my first calculator from scratch
-Hours spent: ~7 hours
-```
+**Latest:** Built EPG calculator. Learned datetime, made noob mistakes (forgot to save file!), but tool actually works.
+
+---
+
+## 🎯 Why Accelerated?
+
+I bring 8 years of:
+- Data pipeline operations at Nielsen & Simply.TV
+- SQL mastery
+- 24/7 system monitoring & SLAs
+- Streaming/OTT domain expertise
+
+This lets me skip basics and move 2x faster than standard beginner paths.
 
 ---
 
@@ -109,10 +113,9 @@ Hours spent: ~7 hours
 
 ## 🔗 Connect
 
-- **LinkedIn:** [your profile]
-- **Learning from:** A structured 18-month AI Engineer roadmap
+- **LinkedIn:** https://www.linkedin.com/in/rohit-jadiya-47a42443/
 
 ---
 
-*Last updated: [update weekly]*  
+*Last updated: March 2, 2026*  
 *"The best time to start was yesterday. The second best time is today."*
