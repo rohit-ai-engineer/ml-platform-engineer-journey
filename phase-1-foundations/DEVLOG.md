@@ -20,32 +20,35 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 1 — Entry 1 | Week 1 | [DATE]
+### Block 1 — Entry 1 | Week 1 | March 2, 2026
 
-**Theme:** Python from scratch  
-**Hours logged:** ___ hours across ___ days
+**Theme:** Python fundamentals — accelerated track  
+**Hours logged:** ~3 hours across 2 days
 
 **What I actually learned:**
-- 
-- 
-- 
+- Variables, print(), input() — the basics
+- Working with the datetime module (strptime, strftime)
+- How to format time strings properly
+- The importance of actually saving files before running them (lol)
+- f-strings for cleaner output
 
 **The hardest thing this week:**
-> [Be brutally honest. Did loops confuse you? Did you get a weird error you couldn't solve? Write it here. Future you will appreciate this.]
+> The datetime format string confused me at first. Got an error because I used `%HH:%MM` instead of `%H:%M`. Also kept forgetting to save the file after editing — ran the old version multiple times and was confused why my changes weren't working. Classic beginner mistake but now I always check if the file is saved before running.
 
 **What I built:**
-- `calculator.py` — a basic calculator that does +, -, ×, ÷
-- `mad_libs.py` — 
-- 
+- `calculator.py` — basic calculator with 4 operations (addition, subtraction, multiplication, division)
+- `epg_time_calculator.py` — calculates show end time from start time + duration (actually useful for my job!)
 
 **Moment I'm most proud of:**
-> [Even small wins count. "I finally understood why we use quotes around strings" is a real win.]
+> Seeing the EPG calculator work with real times. It's the first tool I've built that I could legitimately use at Simply.TV. That made it feel *real* — not just a tutorial exercise.
 
 **Honest self-assessment:**
-> [Rate your understanding 1–10 on: variables _/10, loops _/10, functions _/10]
+> Variables: 8/10, print/input: 9/10, datetime: 6/10 (still wrapping my head around the format codes), control flow: not covered yet
 
 **Plan for next week:**
-- 
+- Build the metadata validator (checks CSV records for missing fields)
+- Finish remaining Week 1 projects
+- Start Week 2 if I'm moving fast
 
 ---
 
