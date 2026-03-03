@@ -47,14 +47,16 @@ Phase 5: Production & MLOps    ░░░░░░░░░░░░░░░░�
 
 ## 📁 Phase 1 Progress
 
-### Week 1: Python Fundamentals
-- [x] Calculator
-- [x] EPG Time Calculator
-- [ ] Metadata Validator (next)
+### Week 1: Python Fundamentals ✅ (4/5 projects complete)
+- [x] Calculator — basic operations
+- [x] EPG Time Calculator — show start/end time calculation  
+- [x] CSV Metadata Validator — quality checks on streaming data
+- [x] **XML EPG Validator** — validates real provider feeds
+- [ ] Content Duration Aggregator (optional)
 
 ### Weeks 2-6: Coming Soon
 - Week 2: OOP & File I/O
-- Week 3: APIs & Data Pipelines
+- Week 3: APIs & Data Pipelines  
 - Week 4: Math for AI
 - Week 5: Statistics & Pandas
 - Week 6: Capstone — Metadata Quality Monitor
@@ -63,11 +65,12 @@ Phase 5: Production & MLOps    ░░░░░░░░░░░░░░░░�
 
 ## 🛠️ Projects Built
 
-| Project | Week | Stack | Status |
-|---------|------|-------|--------|
-| Calculator | W1 | Python | ✅ Done |
-| EPG Time Calculator | W1 | Python, datetime | ✅ Done |
-| Metadata Validator | W1 | Python, CSV | ⏳ Next |
+| Project | Week | Stack | Status | Description |
+|---------|------|-------|--------|-------------|
+| Calculator | W1 | Python | ✅ Done | Basic arithmetic operations |
+| EPG Time Calculator | W1 | Python, datetime | ✅ Done | Calculate show end times |
+| CSV Metadata Validator | W1 | Python, CSV | ✅ Done | Quality checks on metadata records |
+| XML EPG Validator | W1 | Python, XML | ✅ Done | Validates real Virgin Media EPG feeds |
 
 ---
 
@@ -75,7 +78,9 @@ Phase 5: Production & MLOps    ░░░░░░░░░░░░░░░░�
 
 > Full devlog → [`phase-1-foundations/DEVLOG.md`](./phase-1-foundations/DEVLOG.md)
 
-**Latest:** Built EPG calculator. Learned datetime, made noob mistakes (forgot to save file!), but tool actually works.
+**Learnt** Built EPG calculator. Learned datetime, made noob mistakes (forgot to save file!), but tool actually works.
+
+**Latest:** Week 1 almost complete. Built 4 tools including a real EPG validator that handles real life XML feeds. Learned XML parsing, attributes vs tags, and caught a bug in the instructor's code using domain knowledge!
 
 ---
 
