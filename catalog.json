@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Breaking Bad",
+    "genre": "Drama",
+    "duration": 47,
+    "release_year": 2008
+  },
+  {
+    "title": "Stranger Things",
+    "genre": "Sci-Fi",
+    "duration": 50,
+    "release_year": 2016
+  },
+  {
+    "title": "The Office",
+    "genre": "Comedy",
+    "duration": 22,
+    "release_year": 2005
+  },
+  {
+    "title": "Inception",
+    "genre": "Action",
+    "duration": 148,
+    "release_year": 2010
+  }
+]
