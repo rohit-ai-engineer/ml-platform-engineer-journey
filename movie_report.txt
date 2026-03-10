@@ -1,0 +1,27 @@
+==================================================
+MOVIE COLLECTION REPORT
+==================================================
+
+Total Movies: 4
+
+1. Interstellar (2014)
+   Rating: 8.7/10
+   Genre: Adventure, Drama, Sci-Fi
+   Director: Christopher Nolan
+
+2. The Dark Knight (2008)
+   Rating: 9.1/10
+   Genre: Action, Crime, Drama
+   Director: Christopher Nolan
+
+3. Breaking Bad (2008–2013)
+   Rating: 9.5/10
+   Genre: Crime, Drama, Thriller
+   Director: N/A
+
+4. Game of Thrones (2011–2019)
+   Rating: 9.2/10
+   Genre: Action, Adventure, Drama
+   Director: N/A
+
+==================================================
