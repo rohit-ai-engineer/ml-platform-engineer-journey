@@ -1,6 +1,6 @@
 # AI Engineer Journey — Rohit Jadiya
 
-**Never coded before. Building in public until I land an AI/ML Engineer role**
+**Never coded before. Building in public until I land an AI/ML Engineer role at a streaming platform.**
 
 ---
 
@@ -12,7 +12,7 @@
 **Target Role:** AI/ML Engineer at Netflix, Disney+, Prime Video, or Spotify  
 **Timeline:** 6-8 months (started March 2026)  
 
-**Why AI/ML?** I've spent 8 years manually solving problems that AI should automate. I'm building the tools to resolve these issues — then using them to get hired by the companies that need them most.
+**Why AI/ML?** I've spent 8 years manually solving problems that AI should automate. I'm building the tools I wish I had at Simply.TV — then using them to get hired by the companies that need them most.
 
 ---
 
@@ -31,6 +31,7 @@ Build 3 production-grade AI/ML projects that solve real streaming/OTT problems:
 ## 📍 Current Status
 
 **Phase 1 — Foundations (6 weeks)** `[Week 3 of 6 — IN PROGRESS]`
+
 ```
 Phase 1: Foundations           ████████████░░░░░░░░  Week 3 of 6
 Phase 2: Classical ML + P1     ░░░░░░░░░░░░░░░░░░░░  Locked
@@ -68,8 +69,9 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 - Ingest EPG data from multiple providers
 - ML model assigns confidence scores to each source
 - Auto-resolves conflicts using weighted voting
+- **GenAI Addition:** LLM embeddings for semantic title matching
 - Flags high-stakes conflicts for human review
-- Tech: Python, Pandas, scikit-learn, PostgreSQL
+- Tech: Python, Pandas, scikit-learn, PostgreSQL, OpenAI API
 
 ---
 
@@ -85,8 +87,9 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 **Capstone: PROJECT 2 — The Content Velocity Predictor**
 - Predict content popularity trajectories (fast burn vs slow build)
 - Uses metadata + social sentiment + historical patterns
-- Helps platforms make licensing decisions
-- Tech: Python, scikit-learn, BeautifulSoup, TMDB API, Plotly
+- **GenAI Addition:** LLM analyzes social media sentiment for buzz detection
+- Helps platforms make multi-million dollar licensing decisions
+- Tech: Python, scikit-learn, BeautifulSoup, TMDB API, Plotly, OpenAI API
 
 ---
 
@@ -99,8 +102,10 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 - Transfer learning
 - LLMs & embeddings (Hugging Face)
 - Vector databases (Pinecone)
+- RAG architecture
+- Prompt engineering
 
-*(Applied in Project 3 for anomaly detection)*
+*(Applied in Projects 1 & 2, minimal use in Project 3)*
 
 ---
 
@@ -117,10 +122,29 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 **Capstone: PROJECT 3 — The Live Event Anomaly Guardian**
 - Real-time monitoring of live event metadata feeds
-- Anomaly detection using Isolation Forest
+- Anomaly detection using Isolation Forest (classical ML — speed matters)
+- **GenAI Addition (minimal):** LLM generates human-readable incident summaries
 - Auto-failover + alerting with 5-min SLA
 - Zero outages goal
 - Tech: Python, Kafka, Docker, Prometheus, Grafana, PagerDuty
+
+---
+
+## 🤖 My Approach to GenAI
+
+**Philosophy:** Use GenAI where it adds UNIQUE value. Skip it where classical ML is better.
+
+**I use GenAI for:**
+- ✅ Unstructured text analysis (sentiment, semantic matching)
+- ✅ Content generation (descriptions, tags)
+- ✅ Fuzzy matching (multilingual, typos)
+
+**I DON'T use GenAI for:**
+- ❌ Real-time systems (too slow)
+- ❌ High-stakes decisions (hallucination risk)
+- ❌ When classical ML is faster/cheaper
+
+**Why this matters:** Most bootcamp grads use LLMs for everything. I use the right tool for the job. That's what production engineers do.
 
 ---
 
@@ -132,7 +156,7 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 - scikit-learn (classical ML)
 - PyTorch (deep learning)
 - Hugging Face (LLMs, embeddings)
-- LangChain (LLM orchestration)
+- OpenAI/Anthropic APIs (strategic GenAI use)
 
 **Data Engineering:**
 - Pandas, NumPy
@@ -184,14 +208,11 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 ---
 
-## 📝 Notes
+## 📝 Philosophy
 
-**Why I'm building in public:**
-- Accountability (can't quit if people are watching)
-- Learning by teaching (explaining helps me understand)
-- Networking (hiring managers see the journey, not just the result)
+**Deep understanding > speed.** I'm 35 with bills to pay — no time for shallow learning. Every project must be production-ready and portfolio-worthy.
 
-**Philosophy:** Deep understanding > speed. I'm 35 with bills to pay — no time for shallow learning. Every project must be production-ready and portfolio-worthy.
+**Right tool for the job.** I use classical ML where it's best (speed, reliability, cost) and GenAI where it adds unique value (semantic understanding, text analysis). Production systems need both.
 
 ---
 
