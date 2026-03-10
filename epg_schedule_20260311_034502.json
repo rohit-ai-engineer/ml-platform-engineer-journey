@@ -1,0 +1,1482 @@
+{
+  "valid": [
+    {
+      "episode_id": 3564084,
+      "episode_name": "Nicolle Wallace, Rebecca Ferguson, Joe Santagato, Frank Alvarez",
+      "show_name": "Late Night with Seth Meyers",
+      "network": "NBC",
+      "airdate": "2026-03-10",
+      "airtime": "00:35",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561313,
+      "episode_name": "Episode 50",
+      "show_name": "FOX & Friends First",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "05:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562216,
+      "episode_name": "Episode 48",
+      "show_name": "Way Too Early",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "05:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566624,
+      "episode_name": "Episode 50",
+      "show_name": "Early Start with Rahel Solomon",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "05:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559723,
+      "episode_name": "Episode 49",
+      "show_name": "Morning Joe",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "06:00",
+      "runtime": 240,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562288,
+      "episode_name": "Episode 50",
+      "show_name": "CNN This Morning",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "06:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569508,
+      "episode_name": "Episode 50",
+      "show_name": "Wake Up America Early",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "06:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563318,
+      "episode_name": "Nicole Kidman, Jamie Lee Curtis, Jennifer Lopez, Cast of \"The Secret Lives of Mormon Wives\"",
+      "show_name": "Good Morning America",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "07:00",
+      "runtime": 120,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563399,
+      "episode_name": "Dan Hicks, Rickie Fowler, Lauren Graham, Alison Roman",
+      "show_name": "Today",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "07:00",
+      "runtime": 120,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563414,
+      "episode_name": "Kurt Russell, Bubba Wallace, Tu Bloom",
+      "show_name": "CBS Mornings",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "07:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566515,
+      "episode_name": "Episode 50",
+      "show_name": "CNN News Central",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "07:00",
+      "runtime": 180,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569530,
+      "episode_name": "Episode 50",
+      "show_name": "Wake Up America",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "07:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563434,
+      "episode_name": "Episode 45",
+      "show_name": "Good Morning Football",
+      "network": "NFL Network",
+      "airdate": "2026-03-11",
+      "airtime": "08:00",
+      "runtime": 120,
+      "type": "Talk Show",
+      "genres": [
+        "Sports"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561608,
+      "episode_name": "Episode 49",
+      "show_name": "America's Newsroom",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "09:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563460,
+      "episode_name": "Rudy Pankow, Stephen Moyer",
+      "show_name": "Today 3rd Hour",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "09:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567802,
+      "episode_name": "Episode 50",
+      "show_name": "ABC News Live First",
+      "network": null,
+      "airdate": "2026-03-11",
+      "airtime": "09:00",
+      "runtime": 240,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569553,
+      "episode_name": "Episode 50",
+      "show_name": "National Report",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "09:00",
+      "runtime": 180,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563477,
+      "episode_name": "Episode 132",
+      "show_name": "First Take",
+      "network": "ESPN",
+      "airdate": "2026-03-11",
+      "airtime": "10:00",
+      "runtime": 120,
+      "type": "Talk Show",
+      "genres": [
+        "Sports"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563499,
+      "episode_name": "Episode 48",
+      "show_name": "CBS News 24/7",
+      "network": null,
+      "airdate": "2026-03-11",
+      "airtime": "10:00",
+      "runtime": 300,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563523,
+      "episode_name": "Adam Devine, Jenn Lueke",
+      "show_name": "TODAY with Jenna & Sheinelle",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "10:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3564421,
+      "episode_name": "Episode 47",
+      "show_name": "Ana Cabrera Reports",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "10:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566725,
+      "episode_name": "Episode 50",
+      "show_name": "The Situation Room",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "10:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561630,
+      "episode_name": "Episode 50",
+      "show_name": "The Faulkner Focus",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "11:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566165,
+      "episode_name": "Sheryl Underwood, Valerie Bertinelli, Cast of \"The Secret Lives of Mormon Wives\"",
+      "show_name": "The View",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "11:00",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561652,
+      "episode_name": "Episode 50",
+      "show_name": "Outnumbered",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "12:00",
+      "runtime": 60,
+      "type": "Panel Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563539,
+      "episode_name": "Episode 50",
+      "show_name": "NBC News Daily",
+      "network": null,
+      "airdate": "2026-03-11",
+      "airtime": "12:00",
+      "runtime": 240,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3564399,
+      "episode_name": "Episode 47",
+      "show_name": "Chris Jansing Reports",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "12:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566299,
+      "episode_name": "Episode 127",
+      "show_name": "SEC Now",
+      "network": "SEC Network",
+      "airdate": "2026-03-11",
+      "airtime": "12:00",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567393,
+      "episode_name": "Episode 49",
+      "show_name": "Inside Politics",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "12:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569575,
+      "episode_name": "Episode 50",
+      "show_name": "Newsline",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "12:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567204,
+      "episode_name": "Ep. #13333",
+      "show_name": "The Young and the Restless",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "12:30",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561676,
+      "episode_name": "Episode 49",
+      "show_name": "America Reports",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "13:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563546,
+      "episode_name": "Whitney Leavitt, Mikayla Matthews, Jennifer Lopez",
+      "show_name": "GMA3",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "13:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [
+        "Family",
+        "Travel",
+        "Medical"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566962,
+      "episode_name": "Episode 50",
+      "show_name": "CNN News Central (PM)",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "13:00",
+      "runtime": 180,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567777,
+      "episode_name": "Episode 50",
+      "show_name": "ABC News Live",
+      "network": null,
+      "airdate": "2026-03-11",
+      "airtime": "13:00",
+      "runtime": 180,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567911,
+      "episode_name": "Ep. #9733",
+      "show_name": "The Bold and the Beautiful",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "13:30",
+      "runtime": 30,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559712,
+      "episode_name": "Episode 247",
+      "show_name": "Beyond the Gates",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "14:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3564377,
+      "episode_name": "Episode 48",
+      "show_name": "Katy Tur Reports",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "14:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3568002,
+      "episode_name": "Ep. #15913",
+      "show_name": "General Hospital",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "14:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Medical"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569597,
+      "episode_name": "Episode 50",
+      "show_name": "American Agenda",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "14:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567318,
+      "episode_name": "Episode 128",
+      "show_name": "SEC Now",
+      "network": "SEC Network",
+      "airdate": "2026-03-11",
+      "airtime": "14:30",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561704,
+      "episode_name": "Episode 50",
+      "show_name": "The Story",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "15:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559806,
+      "episode_name": "Episode 49",
+      "show_name": "Deadline: White House",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "16:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561527,
+      "episode_name": "Episode 51",
+      "show_name": "The Will Cain Show",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "16:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567417,
+      "episode_name": "Episode 50",
+      "show_name": "The Arena with Kasie Hunt",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "16:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569619,
+      "episode_name": "Episode 49",
+      "show_name": "The Record with Greta Van Susteren",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "16:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561728,
+      "episode_name": "Episode 50",
+      "show_name": "The Five",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "17:00",
+      "runtime": 60,
+      "type": "Panel Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567486,
+      "episode_name": "Episode 49",
+      "show_name": "The Lead with Jake Tapper",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "17:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567827,
+      "episode_name": "Episode 50",
+      "show_name": "ABC News Live Reports",
+      "network": null,
+      "airdate": "2026-03-11",
+      "airtime": "17:00",
+      "runtime": 120,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569641,
+      "episode_name": "Episode 33",
+      "show_name": "Ed Henry the Big Take",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "17:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559767,
+      "episode_name": "Episode 48",
+      "show_name": "The Beat with Ari Melber",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "18:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561751,
+      "episode_name": "Episode 50",
+      "show_name": "Special Report",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "18:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569663,
+      "episode_name": "Episode 50",
+      "show_name": "Carl Higbie Frontline",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "18:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567319,
+      "episode_name": "Episode 129",
+      "show_name": "SEC Now",
+      "network": "SEC Network",
+      "airdate": "2026-03-11",
+      "airtime": "18:30",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569081,
+      "episode_name": "Episode 50",
+      "show_name": "CBS Evening News",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "18:30",
+      "runtime": 30,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569090,
+      "episode_name": "Episode 68",
+      "show_name": "ABC World News Tonight with David Muir",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "18:30",
+      "runtime": 30,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569103,
+      "episode_name": "Mar 11 Wed",
+      "show_name": "NBC Nightly News",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "18:30",
+      "runtime": 30,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559744,
+      "episode_name": "Episode 47",
+      "show_name": "The Weeknight",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "19:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561774,
+      "episode_name": "Episode 50",
+      "show_name": "The Ingraham Angle",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "19:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566170,
+      "episode_name": "Maika Monroe, Tyriq Withers, Teyana Taylor, Wunmi Mosaku",
+      "show_name": "ABC Prime with Linsey Davis",
+      "network": null,
+      "airdate": "2026-03-11",
+      "airtime": "19:00",
+      "runtime": 90,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567555,
+      "episode_name": "Episode 49",
+      "show_name": "Erin Burnett OutFront",
+      "network": "CNN",
+      "airdate": "2026-03-11",
+      "airtime": "19:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569685,
+      "episode_name": "Episode 50",
+      "show_name": "Rob Schmitt Tonight",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "19:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3570214,
+      "episode_name": "Episode 11",
+      "show_name": "NBA Countdown",
+      "network": "ESPN",
+      "airdate": "2026-03-11",
+      "airtime": "19:00",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [
+        "Sports"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3449437,
+      "episode_name": "Did You Vote For a Swap?",
+      "show_name": "Survivor",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 90,
+      "type": "Reality",
+      "genres": [
+        "Adventure"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3527847,
+      "episode_name": "Twist & Shout",
+      "show_name": "Chicago Med",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Medical"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3531045,
+      "episode_name": "#336 - San Jose Civic Center in San Jose, CA",
+      "show_name": "All Elite Wrestling: Dynamite",
+      "network": "TBS",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 120,
+      "type": "Sports",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3548601,
+      "episode_name": "Carolina Dazed",
+      "show_name": "Southern Charm",
+      "network": "Bravo",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3548976,
+      "episode_name": "My Poker Face",
+      "show_name": "Scrubs",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 30,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Medical"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3549136,
+      "episode_name": "No Easy Gator",
+      "show_name": "Swamp People",
+      "network": "History",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 94,
+      "type": "Reality",
+      "genres": [
+        "Adventure",
+        "Nature"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3551298,
+      "episode_name": "Care Bears Night",
+      "show_name": "The Masked Singer",
+      "network": "FOX",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Music"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3554679,
+      "episode_name": "I Know My Rights",
+      "show_name": "Police 24/7",
+      "network": "The CW",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559788,
+      "episode_name": "Episode 36",
+      "show_name": "All In with Chris Hayes",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561798,
+      "episode_name": "Episode 50",
+      "show_name": "Jesse Watters Primetime",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562977,
+      "episode_name": "Sterling and Lolo Wood CCCLXIX",
+      "show_name": "Ridiculousness",
+      "network": "MTV",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 30,
+      "type": "Reality",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563047,
+      "episode_name": "Shots in the Snow",
+      "show_name": "Alaska State Troopers",
+      "network": "A&E",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Crime"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569706,
+      "episode_name": "Episode 49",
+      "show_name": "Finnerty",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "20:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3552790,
+      "episode_name": "Safety Day",
+      "show_name": "Abbott Elementary",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "20:30",
+      "runtime": 32,
+      "type": "Scripted",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562973,
+      "episode_name": "The Secret Ingredients",
+      "show_name": "Tyler Perry's Assisted Living",
+      "network": "BET",
+      "airdate": "2026-03-11",
+      "airtime": "20:30",
+      "runtime": 30,
+      "type": "Scripted",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562978,
+      "episode_name": "Sterling and Lolo Wood CCCLXX",
+      "show_name": "Ridiculousness",
+      "network": "MTV",
+      "airdate": "2026-03-11",
+      "airtime": "20:30",
+      "runtime": 30,
+      "type": "Reality",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3542181,
+      "episode_name": "Hit and Run",
+      "show_name": "Chicago Fire",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3549308,
+      "episode_name": "No Utensils Day",
+      "show_name": "Flavortown Food Fight",
+      "network": "Food Network",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Food"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3549875,
+      "episode_name": "Folly Follies",
+      "show_name": "Southern Hospitality",
+      "network": "Bravo",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3552723,
+      "episode_name": "TBA",
+      "show_name": "Bedtime Stories with Ryan",
+      "network": "Nick Jr.",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 30,
+      "type": "Reality",
+      "genres": [
+        "Children"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3558091,
+      "episode_name": "Ghosts of Gettysburg",
+      "show_name": "Expedition X",
+      "network": "Discovery",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Documentary",
+      "genres": [
+        "Mystery",
+        "History",
+        "Supernatural"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3558435,
+      "episode_name": "High Caliber Highway",
+      "show_name": "To Catch a Smuggler",
+      "network": "National Geographic",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Documentary",
+      "genres": [
+        "Crime"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559825,
+      "episode_name": "Episode 36",
+      "show_name": "The Briefing with Jen Psaki",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561819,
+      "episode_name": "Episode 50",
+      "show_name": "Hannity",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562357,
+      "episode_name": "Vanishing Act",
+      "show_name": "FEDS",
+      "network": "Investigation Discovery",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Crime"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562975,
+      "episode_name": "Big As Us",
+      "show_name": "Tyler Perry's Sistas",
+      "network": "BET",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562979,
+      "episode_name": "Sterling and Lolo Wood CCCLXXI",
+      "show_name": "Ridiculousness",
+      "network": "MTV",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 30,
+      "type": "Reality",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563048,
+      "episode_name": "Labor Day After Dark",
+      "show_name": "Ozark Law",
+      "network": "A&E",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Crime",
+        "Legal"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567320,
+      "episode_name": "Episode 130",
+      "show_name": "SEC Now",
+      "network": "SEC Network",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569727,
+      "episode_name": "Episode 49",
+      "show_name": "Greg Kelly Reports",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "21:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3551303,
+      "episode_name": "Human Claw",
+      "show_name": "Fear Factor: House of Fear",
+      "network": "FOX",
+      "airdate": "2026-03-11",
+      "airtime": "21:02",
+      "runtime": 58,
+      "type": "Reality",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3553127,
+      "episode_name": "I Am Definitely NOT a Game Show Host!",
+      "show_name": "The Greatest Average American",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "21:02",
+      "runtime": 60,
+      "type": "Game Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3449439,
+      "episode_name": "Meat the First Commandment",
+      "show_name": "America's Culinary Cup",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "21:30",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Food"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3562980,
+      "episode_name": "Sterling and Lolo Wood CCCLXXII",
+      "show_name": "Ridiculousness",
+      "network": "MTV",
+      "airdate": "2026-03-11",
+      "airtime": "21:30",
+      "runtime": 30,
+      "type": "Reality",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3556975,
+      "episode_name": "Shoot for the Pawn Stars",
+      "show_name": "Pawn Stars",
+      "network": "History",
+      "airdate": "2026-03-11",
+      "airtime": "21:34",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3556778,
+      "episode_name": "Meant to Be",
+      "show_name": "Chicago P.D.",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3556849,
+      "episode_name": "Pop or Fizzle? Will Guest Shark, Beverage Billionaire Allison Ellsworth Take a Chance on a Soda Newbie?",
+      "show_name": "Shark Tank",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3559974,
+      "episode_name": "Cap\u00edtulo 16",
+      "show_name": "Lobo, Morir Matando",
+      "network": "Telemundo",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Scripted",
+      "genres": [
+        "Drama"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561220,
+      "episode_name": "Episode 47",
+      "show_name": "The Last Word with Lawrence O'Donnell",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561841,
+      "episode_name": "Episode 48",
+      "show_name": "Gutfeld!",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3563049,
+      "episode_name": "End of Summer",
+      "show_name": "Desert Law",
+      "network": "A&E",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Reality",
+      "genres": [
+        "Crime",
+        "Legal"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3565765,
+      "episode_name": "Austen Kroll, Craig Conover, and Shep Rose",
+      "show_name": "Watch What Happens Live",
+      "network": "Bravo",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3566446,
+      "episode_name": "Lost in the Daylight",
+      "show_name": "Hunt for the Missing: Chicago",
+      "network": "Investigation Discovery",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Documentary",
+      "genres": [
+        "Crime"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3569748,
+      "episode_name": "Episode 49",
+      "show_name": "Chris Plante: The Right Squad",
+      "network": "Newsmax",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3570213,
+      "episode_name": "The Philly HBCU Showdown",
+      "show_name": "The Coach Vick Experience",
+      "network": "BET",
+      "airdate": "2026-03-11",
+      "airtime": "22:00",
+      "runtime": 60,
+      "type": "Documentary",
+      "genres": [
+        "Sports"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3449449,
+      "episode_name": "This Isn't Survivor",
+      "show_name": "Hollywood Squares",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "22:30",
+      "runtime": 30,
+      "type": "Game Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561241,
+      "episode_name": "Episode 47",
+      "show_name": "The 11th Hour with Stephanie Ruhle",
+      "network": "MS NOW",
+      "airdate": "2026-03-11",
+      "airtime": "23:00",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3561862,
+      "episode_name": "Episode 49",
+      "show_name": "Fox News @ Night",
+      "network": "Fox News Channel",
+      "airdate": "2026-03-11",
+      "airtime": "23:00",
+      "runtime": 60,
+      "type": "News",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3567323,
+      "episode_name": "Episode 131",
+      "show_name": "SEC Now",
+      "network": "SEC Network",
+      "airdate": "2026-03-11",
+      "airtime": "23:30",
+      "runtime": 30,
+      "type": "Talk Show",
+      "genres": [],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3564766,
+      "episode_name": "Conan O'Brien, Matthew Fox",
+      "show_name": "Jimmy Kimmel Live",
+      "network": "ABC",
+      "airdate": "2026-03-11",
+      "airtime": "23:35",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3565199,
+      "episode_name": "Uma Thurman, Emma Chamberlain, Derrick Stroup",
+      "show_name": "The Tonight Show Starring Jimmy Fallon",
+      "network": "NBC",
+      "airdate": "2026-03-11",
+      "airtime": "23:35",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    },
+    {
+      "episode_id": 3565203,
+      "episode_name": "Clarissa Ward, Pete Holmes",
+      "show_name": "The Late Show with Stephen Colbert",
+      "network": "CBS",
+      "airdate": "2026-03-11",
+      "airtime": "23:35",
+      "runtime": 60,
+      "type": "Talk Show",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running"
+    }
+  ],
+  "invalid": [],
+  "total_processed": 115,
+  "valid_count": 115,
+  "invalid_count": 0
+}
