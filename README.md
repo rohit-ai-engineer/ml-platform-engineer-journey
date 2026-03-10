@@ -30,10 +30,9 @@ Build 3 production-grade AI/ML projects that solve real streaming/OTT problems:
 
 ## 📍 Current Status
 
-**Phase 1 — Foundations (6 weeks)** `[Week 3 of 6 — IN PROGRESS]`
-
+**Phase 1 — Foundations (6 weeks)** `[Week 3 of 6 — COMPLETE]`
 ```
-Phase 1: Foundations           ████████████░░░░░░░░  Week 3 of 6
+Phase 1: Foundations           ████████████████░░░░  Week 3 of 6
 Phase 2: Classical ML + P1     ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 3: Time-Series + P2      ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 4: Deep Learning         ░░░░░░░░░░░░░░░░░░░░  Locked
@@ -49,8 +48,8 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 **Week 1:** Python basics + OTT-focused projects ✅  
 **Week 2:** OOP, file I/O, JSON persistence ✅  
-**Week 3:** APIs, data pipelines, real-time data fetching ⏳  
-**Week 4:** Pandas, data analysis, feature engineering  
+**Week 3:** APIs, data pipelines, real-time data fetching ✅  
+**Week 4:** Pandas, data analysis, feature engineering ⏳  
 **Week 5:** NumPy, linear algebra, stats fundamentals  
 **Week 6:** SQL, database operations, data warehousing basics  
 
@@ -187,17 +186,18 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 | CSV Metadata Validator | W1 | Python, CSV | ✅ Done | Quality checks on metadata records |
 | XML EPG Validator | W1 | Python, XML | ✅ Done | Validates real Virgin Media EPG feeds |
 | Streaming Catalog Manager | W2 | Python, OOP, JSON | ✅ Done | Full-featured catalog with persistence |
-| Movie Collector | W3 | Python, APIs, JSON | ✅ Done | Fetch, search, filter, export movie data via OMDB API |
+| Movie Collector | W3 | Python, APIs, JSON | ✅ Done | OMDB API integration with search, filter, export |
+| **EPG Data Pipeline** | W3 | Python, APIs, JSON | ✅ Done | Production pipeline: fetch → extract → validate → save |
 
 ---
 
 ## 📊 Learning Log
 
-**Latest:** Week 3 in progress — built a movie collector that fetches live data via APIs. Learning how to integrate external data sources and handle real-time information. Next up: Pandas for data analysis to prep for Project 1.
+**Latest:** Week 3 complete! Built a production-quality EPG data pipeline that fetches live schedule data, extracts clean fields from nested JSON, validates quality, and exports to timestamped files. 115 shows processed with 100% success rate. This is the foundation for Project 1 (Metadata Conflict Resolver). Next: Pandas for data analysis.
 
 **Week 2 Reflection:** Built my first OOP system (Catalog Manager). Struggled with understanding where code belongs (Content class vs Catalog class) but got it eventually. Realized I'm doing OOP without solid fundamentals — need more practice with basics.
 
-**Week 1 Reflection:** Started from zero. Built 4 tools including a real EPG validator that handles Virgin Media XML feeds. Learned XML parsing, caught a bug in the instructor's code using my domain knowledge. Feels good to apply my Simply.TV experience.
+**Week 1 Reflection:** Started from zero. Built 4 tools including a real EPG validator that handles Virgin Media XML feeds. Learned XML parsing, caught a bug in the instructor's code using my domain knowledge. Feels good to apply my Simply.TV experience.git add README.md
 
 ---
 
