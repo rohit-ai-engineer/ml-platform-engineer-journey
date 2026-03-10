@@ -104,21 +104,54 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 1 — Entry 3 | Week 3 | [DATE]
+### Week 3 — Entry 3 | March 10-11, 2026
 
-**Theme:** Functions & data structures  
-**Hours logged:** ___ hours
+**Theme:** APIs, Data Pipelines & Real-Time Data  
+**Hours logged:** ~4 hours across 2 days
 
 **What I actually learned:**
-- 
+- API requests with requests.get() - talking to external services
+- JSON parsing and manipulation - converting API responses to Python objects
+- Error handling - try/except blocks and None checks (the `or {}` pattern)
+- Data extraction from deeply nested structures
+- Data validation with business logic (required fields, format checking, reasonable values)
+- File I/O with timestamps - saving processed data
+- Building end-to-end pipelines (fetch → extract → validate → save)
+- Debugging NoneType errors - learned to handle when API returns None values
 
-**The hardest thing:**
-> 
+**The hardest thing this week:**
+> The NoneType error in the extraction function. I thought I fixed it with `show_data = raw_show.get('show') or {}` but kept getting errors. Turned out ANOTHER field (`network`) was also returning None. Learned that you have to check for None at EVERY level of nested data, not just the first one. This is exactly the kind of messy data I deal with at my current job - different providers return None in different places.
 
-**Block 1 Capstone — Contact Book:**
-> [Describe your contact book app. What does it do? What was tricky to build?]
+**What I built:**
+- `movie_fetcher.py` — Full-featured movie collector with OMDB API integration
+  - Search and add movies
+  - Filter by rating
+  - Remove from collection
+  - Export reports
+  - Save/load JSON persistence
+- `epg_pipeline.py` — Production-quality EPG data pipeline
+  - Fetches live schedule from TVmaze API (115 shows)
+  - Extracts 10 clean fields from 15+ messy nested fields
+  - Validates required fields and data quality
+  - 100% success rate on real data
+  - Saves to timestamped JSON files
 
-**Block 1 complete? (Y/N):** 
+**Moment I'm most proud of:**
+> Building the EPG pipeline and seeing "Valid: 115 (100.0%)". This is a mini version of what I'll build for Project 1 (Metadata Conflict Resolver). I took messy, nested API data and normalized it into clean, validated records. That's literally my job at Simply.TV, except now I can code it myself.
+
+**Honest self-assessment:**
+> API requests: 8/10, JSON handling: 8/10, Error handling: 7/10 (getting better at defensive coding), Data validation: 9/10 (this felt natural from my ops background), Nested data extraction: 7/10 (still learning the patterns)
+
+**Aha moment:**
+> Understanding the difference between `.get('key', {})` and `.get('key') or {}`. The first one returns the ACTUAL value (even if it's None). The second one replaces None with {}. This tiny difference caused a 2-hour debugging session, but now I get it completely.
+
+**Plan for next week:**
+- Week 4: Pandas and data analysis
+- Learn to manipulate tabular data (CSVs, DataFrames)
+- Feature engineering prep for Project 1
+- Start thinking about multi-source data reconciliation
+
+**Week 3 complete? (Y/N):** Y — built 2 real pipelines, ready for data analysis!
 
 ---
 
