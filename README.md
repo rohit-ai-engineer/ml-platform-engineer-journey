@@ -220,7 +220,7 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 ## 🔗 Connect
 
-- **GitHub:** [rohit-ai-engineer](https://github.com/rohit-ai-engineer/ai-engineer-journey)
+- **GitHub:** [rohit-ai-engineer](https://github.com/rohit-ai-engineer/ml-platform-engineer-journey)
 - **LinkedIn:** [Rohit Jadiya](https://www.linkedin.com/in/rohit-jadiya-47a42443)
 
 ---
