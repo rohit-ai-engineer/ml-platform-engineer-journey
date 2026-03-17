@@ -207,7 +207,7 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 | Primetime Analyzer | W4 | Python, Pandas | ✅ Done | Filtered 8pm-10pm shows, created boolean columns |
 | Data Quality Report Tool | W4 | Python, Pandas, File I/O | ✅ Done | Automated validation with dual output (screen + file) |
 | Morning Shows Analyzer | W4 | Python, Pandas | ✅ Done | Self-written analysis of 6am-12pm programming |
-
+| EPG Analytics Dashboard | W4 | Python, Pandas, JSON, File I/O | ✅ Done | 5-question business analysis dashboard with file output |
 ---
 
 ## 📊 Learning Log

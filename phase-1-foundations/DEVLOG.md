@@ -177,6 +177,13 @@ Every Saturday I answer these 5 questions:
 - Primetime Analyzer (boolean filtering, new columns)
 - Data Quality Report Tool (automated validation, dual output)
 - Morning Programming Analyzer (self-written from logic!)
+- EPG Analytics Dashboard — 5 business questions on real TVmaze data:
+  1. Network Dominance (Top 10 by show count)
+  2. Runtime Analysis (avg/min/max for networks with 5+ shows)
+  3. Show Type Breakdown (% of schedule per type)
+  4. Schedule Activity (shows per date per network)
+  5. Missing Data Audit (field-level null counts + %)
+  - Output saved to epg_quality_report.txt using log() pattern
 
 **Moment I'm most proud of:**
 > Writing Exercise 4 from scratch. Thought through the logic BEFORE coding, mapped it to patterns, and it worked on first try.
@@ -186,6 +193,7 @@ Every Saturday I answer these 5 questions:
 
 **Aha moment:**
 > Understanding the difference between `print()` and `return`, and between `print()` and `f.write()`. The `log()` function pattern clicked: same data, three destinations (screen, memory, file).
+> Debugged 3 errors independently in the dashboard — recursion error (function calling itself), type error (Series can't concatenate with string, fixed with str()), and path error. Each one solved without being given the answer.
 
 **Plan for next week:**
 - NumPy fundamentals
