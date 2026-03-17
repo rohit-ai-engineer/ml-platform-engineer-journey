@@ -83,3 +83,12 @@ B = np.array([
 # print(A + B)
 # print(A * B)
 print(np.dot(A, B))
+
+
+runtime = np.array([30, 60, 60, 120, 30, 60, 90, 60, 30, 120])
+ratings = np.array([7.2, 8.1, 6.5, 9.0, 5.5, 7.8, 8.5, 7.0, 6.0, 8.8])
+
+print(np.corrcoef(runtime, ratings))
+print(np.cov(runtime, ratings))
+
+print(np.corrcoef(runtime, ratings)[0,1])
