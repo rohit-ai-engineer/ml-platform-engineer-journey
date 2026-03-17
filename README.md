@@ -1,5 +1,9 @@
 # ML Platform Engineer Journey — Rohit Jadiya
 
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![Phase](https://img.shields.io/badge/Phase-1%20Foundations-purple)
+
 **Never coded before. Building in public until I land an ML Platform Engineer role at a top streaming platform.**
 
 ---
