@@ -80,8 +80,8 @@ B = np.array([
     [7, 8]
 ])
 
-# print(A + B)
-# print(A * B)
+print(A + B)
+print(A * B)
 print(np.dot(A, B))
 
 
