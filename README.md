@@ -1,4 +1,4 @@
-# ML Platform Engineer Journey — Rohit Jadiya
+# ML Platform Engineer Journey - Rohit Jadiya
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
@@ -16,7 +16,7 @@
 **Target Role:** ML Platform Engineer at tier-1 streaming platforms and tech companies  
 **Timeline:** 14-16 months with extensive practice (started March 2026)  
 
-**Why ML Platform Engineering?** I've spent 8 years manually solving problems that AI should automate. I'm building the tools I wish I had at Simply.TV — then using them to get hired by the companies that need them most.
+**Why ML Platform Engineering?** I've spent 8 years manually solving problems that AI should automate. I'm building the tools I wish I had at Simply.TV - then using them to get hired by the companies that need them most.
 
 ---
 
@@ -24,9 +24,9 @@
 
 Build 3 production-grade ML systems that solve real streaming/OTT problems:
 
-1. **The Metadata Conflict Resolver** — Multi-source truth reconciliation using ML
-2. **The Content Velocity Predictor** — Forecast content popularity trajectories  
-3. **The Live Event Anomaly Guardian** — Real-time anomaly detection for live events
+1. **The Metadata Conflict Resolver** - Multi-source truth reconciliation using ML
+2. **The Content Velocity Predictor** - Forecast content popularity trajectories  
+3. **The Live Event Anomaly Guardian** - Real-time anomaly detection for live events
 
 **End Goal:** Portfolio that proves I can ship ML systems, not just train models.
 
@@ -34,9 +34,9 @@ Build 3 production-grade ML systems that solve real streaming/OTT problems:
 
 ## 📍 Current Status
 
-**Phase 1 — Foundations (7 weeks)** `[Week 4 of 7 — COMPLETE]`
+**Phase 1 - Foundations (7 weeks)** `[Week 6 of 7 - IN PROGRESS]`
 ```
-Phase 1: Foundations           ██████████████░░░░░░  Week 4 of 7
+Phase 1: Foundations           ████████████████░░░░  Week 5 ✅ Week 6 ⏳
 Phase 2: Classical ML + P1     ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 3: Time-Series + P2      ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 4: Deep Learning         ░░░░░░░░░░░░░░░░░░░░  Locked
@@ -54,8 +54,8 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 **Week 2:** OOP, file I/O, JSON persistence ✅  
 **Week 3:** APIs, data pipelines, real-time data fetching ✅  
 **Week 4:** Pandas, data analysis, feature engineering ✅  
-**Week 5:** NumPy, linear algebra, stats fundamentals ⏳  
-**Week 6:** SQL, Testing & Version Control  
+**Week 5:** NumPy, linear algebra, stats fundamentals ✅  
+**Week 6:** SQL, Testing & Version Control ⏳  
 **Week 7:** Advanced Python + System Design Thinking (basics)  
 
 ---
@@ -71,12 +71,12 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 - MLflow experiment tracking
 - pytest (production-quality test suites)
 
-**Capstone: PROJECT 1 — The Metadata Conflict Resolver**
+**Capstone: PROJECT 1 - The Metadata Conflict Resolver**
 - Ingest EPG data from multiple providers
 - ML model assigns confidence scores to each source
 - Auto-resolves conflicts using weighted voting
 - **GenAI Addition:** LLM embeddings for semantic title matching
-- HITL approval dashboard — flags low-confidence predictions (<0.7) for human review
+- HITL approval dashboard - flags low-confidence predictions (<0.7) for human review
 - MLflow experiment tracking (Logistic Regression vs Random Forest vs XGBoost)
 - Tech: Python, Pandas, scikit-learn, PostgreSQL, OpenAI API, MLflow, pytest
 
@@ -91,10 +91,10 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 - Social media sentiment analysis
 - Web scraping for trend data
 
-**Capstone: PROJECT 2 — The Content Velocity Predictor**
+**Capstone: PROJECT 2 - The Content Velocity Predictor**
 - Predict content popularity trajectories (fast burn vs slow build)
 - Uses metadata + social sentiment + historical patterns
-- **Cold Start Engine:** Hybrid approach for new content with zero history — uses OpenAI embeddings to find similar shows, averages their performance with wide confidence intervals
+- **Cold Start Engine:** Hybrid approach for new content with zero history - uses OpenAI embeddings to find similar shows, averages their performance with wide confidence intervals
 - **GenAI Addition:** LLM analyzes social media sentiment for buzz detection
 - Helps platforms make multi-million dollar licensing decisions
 - Tech: Python, scikit-learn, BeautifulSoup, TMDB API, Plotly, OpenAI API, MLflow
@@ -120,25 +120,30 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 ### Phase 5: MLOps + Project 3 (Weeks 22-29)
 **Goal:** Build the Live Event Anomaly Guardian
 
+> **I don't build models. I build platforms for other engineers to build models on.**
+
 **Skills:**
 - Docker containerization
+- Kubernetes (hands-on - pods, deployments, services, Minikube deployment)
 - Kafka (real-time streaming)
-- Model deployment (FastAPI)
+- Model deployment (FastAPI + auth + rate limiting)
 - Airflow orchestration (DAGs, scheduling, pipeline automation)
 - Monitoring (Prometheus, Grafana)
 - Model drift detection (EvidentlyAI)
 - Alerting & incident response
 - CI/CD for ML models (GitHub Actions)
-- Kubernetes fundamentals (conceptual — pods, deployments, services)
+- Terraform (IaC basics - deploy AWS resources)
+- AWS SageMaker (train + deploy ML endpoints)
+- IAM (roles, policies, least privilege)
 
-**Capstone: PROJECT 3 — The Live Event Anomaly Guardian**
+**Capstone: PROJECT 3 - The Live Event Anomaly Guardian**
 - Real-time monitoring of live event metadata feeds
-- Anomaly detection using Isolation Forest (classical ML — speed matters)
-- Schema drift detection with EvidentlyAI — catches provider format changes before they break pipelines
+- Anomaly detection using Isolation Forest (classical ML - speed matters)
+- Schema drift detection with EvidentlyAI - catches provider format changes before they break pipelines
 - **GenAI Addition (minimal):** LLM generates human-readable incident summaries
 - Auto-failover + alerting with 5-min SLA
 - Zero outages goal
-- Tech: Python, Kafka, Docker, Prometheus, Grafana, PagerDuty, EvidentlyAI, GitHub Actions
+- Tech: Python, Kafka, Docker, Kubernetes, Prometheus, Grafana, PagerDuty, EvidentlyAI, GitHub Actions, Terraform
 
 ---
 
@@ -178,10 +183,14 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 **MLOps & Production:**
 - Docker
-- FastAPI
+- Kubernetes (hands-on)
+- FastAPI (+ auth + rate limiting)
 - Airflow (pipeline orchestration)
 - Prometheus, Grafana
 - EvidentlyAI (drift detection)
+- Terraform (IaC basics)
+- AWS SageMaker
+- IAM
 - CI/CD (GitHub Actions)
 - Git
 
@@ -208,17 +217,32 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 | Data Quality Report Tool | W4 | Python, Pandas, File I/O | ✅ Done | Automated validation with dual output (screen + file) |
 | Morning Shows Analyzer | W4 | Python, Pandas | ✅ Done | Self-written analysis of 6am-12pm programming |
 | EPG Analytics Dashboard | W4 | Python, Pandas, JSON, File I/O | ✅ Done | 5-question business analysis dashboard with file output |
+| NumPy Runtime Analysis | W5 | Python, NumPy | ✅ Done | Array operations, vectorization, stats on runtime data |
+| Vectorized EPG Calculator | W5 | Python, NumPy | ✅ Done | End times, gap detection, scheduling holes - no loops |
+| EPG Stats Dashboard | W5 | Python, NumPy, Pandas | ✅ Done | Runtime stats, airtime distribution, genre variance, correlation |
+| Cosine Similarity Engine | W5 | Python, NumPy | ✅ Done | Show similarity using dot product and vector normalization |
+| Content Similarity Engine | W5 | Python, NumPy, Pandas | ✅ Done | find_similar_shows() on real EPG data - mini-project capstone |
+
 ---
 
 ## 📊 Learning Log
 
-**Latest:** Week 4 complete! Mastered Pandas through 4 analytical tools. Breakthrough moment: wrote Exercise 4 entirely from my own logic (no step-by-step guidance). Going from "copying syntax" to "thinking in code patterns." Next: NumPy for numerical computing.
+**Latest - Week 6 in progress:** Spent yesterday going through SQL basics again. WHERE vs HAVING, PRIMARY/FOREIGN keys, JOINs, execution order, window functions. Got SQLite running with actual EPG data and wrote my first query that doesn't look like noob writing. 
+Today: LAG/RANK exercises, figuring out schedule overlap detection, then pytest + Git - which is apparently the whole point of Week 6.
 
-**Week 3 Reflection:** Built production-quality EPG data pipeline that fetches live schedule data, extracts clean fields from nested JSON, validates quality, and exports to timestamped files. 115 shows processed with 100% success rate. Foundation for Project 1.
+**Week 5 Reflection:** Toughest week conceptually - NumPy, linear algebra, statistics, and cosine similarity all in one week. The dot product clicked when I realised every ML prediction is `np.dot(features, weights)`. Built 4 exercises and a mini-project similarity engine on real EPG data. Breakthrough: understood WHY vectorization is faster, not just that it is.
 
-**Week 2 Reflection:** Built my first OOP system (Catalog Manager). Struggled with understanding where code belongs (Content class vs Catalog class) but got it eventually. Realized I'm doing OOP without solid fundamentals — need more practice with basics.
+**Week 4 Reflection:** Learned Pandas through 4 different analysis tools. 
+The moment it clicked: Exercise 4, I wrote the whole thing myself,No looking at examples, just worked through the logic. I'm finally starting to see the patterns instead of just copying what works. Also managed to fix 3 bugs in the dashboard on my own, which felt good.
 
-**Week 1 Reflection:** Started from zero. Built 4 tools including a real EPG validator that handles Virgin Media XML feeds. Learned XML parsing, caught a bug in the instructor's code using my domain knowledge. Feels good to apply my Simply.TV experience.
+
+**Week 3 Reflection:** I built a pipeline this week that pulls live TV schedule data and actually cleans it up properly. Takes the messy nested JSON, pulls out what matters, checks if it's any good, then dumps everything to files with timestamps. Ran it on 115 shows without a single failure, which honestly surprised me.
+
+
+**Week 2 Reflection:** Built first OOP system (Catalog Manager). Struggled with understanding where code belongs but got it eventually. Realized I'm doing OOP without solid fundamentals - needed more basics practice.
+
+**Week 1 Reflection:** I started with nothing and built 4 tools so far. One of them is an actual EPG validator that can process Virgin Media's XML feeds, which was harder than it sounds. The weirdest part? I caught a bug in the instructor's code because I actually understood the domain well enough to spot it.
+
 
 ---
 
@@ -231,10 +255,10 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 ## 📝 Philosophy
 
-**Deep understanding > speed.** I'm 35 with bills to pay — no time for shallow learning. Every project must be production-ready and portfolio-worthy.
+**Deep understanding > speed.** I'm 35 with bills to pay - no time for shallow learning. Every project must be production-ready and portfolio-worthy.
 
 **Right tool for the job.** I use classical ML where it's best (speed, reliability, cost) and GenAI where it adds unique value (semantic understanding, text analysis). Production systems need both.
 
 ---
 
-_Last updated: March 17, 2026_
+_Last updated: March 22, 2026_

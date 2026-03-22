@@ -1,4 +1,4 @@
-# 📓 Devlog — AI Engineer Journey
+# 📓 Devlog - AI Engineer Journey
 
 > An honest, weekly log of my learning. The wins, the confusion, the breakthroughs.  
 > Updated every Saturday.
@@ -20,33 +20,33 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 1 — Entry 1 | Week 1 | March 2-3, 2026
+### Block 1 - Entry 1 | Week 1 | March 2-3, 2026
 
-**Theme:** Python fundamentals — accelerated track  
+**Theme:** Python fundamentals - accelerated track  
 **Hours logged:** ~6 hours across 3 days
 
 **What I actually learned:**
-- Variables, print(), input() — the basics
+- Variables, print(), input() - the basics
 - Working with the datetime module (strptime, strftime)
 - How to format time strings properly
 - CSV parsing with csv.DictReader
-- **XML parsing with ElementTree** — tags vs attributes, finding elements
+- **XML parsing with ElementTree** - tags vs attributes, finding elements
 - The importance of actually saving files before running them (lol)
 - f-strings for cleaner output
 - try/except for error handling
 - File paths and working directories in terminal
 
 **The hardest thing this week:**
-> Understanding XML structure — especially the difference between tags and attributes. At first I thought `announcedTime` was a tag, but it's actually an attribute on the `<slot>` tag. Also caught a bug in the validator where it was checking for date on every slot when date is actually stored once at the `<schedule>` level. Used my domain knowledge from Nielsen and Simply.TV to spot that!
+> Understanding XML structure - especially the difference between tags and attributes. At first I thought `announcedTime` was a tag, but it's actually an attribute on the `<slot>` tag. Also caught a bug in the validator where it was checking for date on every slot when date is actually stored once at the `<schedule>` level. Used my domain knowledge from Nielsen and Simply.TV to spot that!
 
 **What I built:**
-- `calculator.py` — basic calculator with 4 operations (addition, subtraction, multiplication, division)
-- `epg_time_calculator.py` — calculates show end time from start time + duration (actually useful for my job!)
-- `metadata_validator.py` — validates CSV metadata, checks for missing fields and invalid values
-- `epg_flexible_validator.py` — **validates real real life EPG XML feeds** — this is production-level stuff! Checks 137+ programs for missing announcedTime, date, and title
+- `calculator.py` - basic calculator with 4 operations (addition, subtraction, multiplication, division)
+- `epg_time_calculator.py` - calculates show end time from start time + duration (actually useful for my job!)
+- `metadata_validator.py` - validates CSV metadata, checks for missing fields and invalid values
+- `epg_flexible_validator.py` - **validates real real life EPG XML feeds** - this is production-level stuff! Checks 137+ programs for missing announcedTime, date, and title
 
 **Moment I'm most proud of:**
-> Building the XML EPG validator. It works on REAL provider feeds — the exact kind of data I work with at Simply.TV. When it validated all 137 programs successfully, that felt incredible. First time I built something that could legitimately be used in my actual job.
+> Building the XML EPG validator. It works on REAL provider feeds - the exact kind of data I work with at Simply.TV. When it validated all 137 programs successfully, that felt incredible. First time I built something that could legitimately be used in my actual job.
 
 **Honest self-assessment:**
 > Variables: 9/10, print/input: 9/10, datetime: 7/10, CSV parsing: 8/10, XML parsing: 6/10 (still learning), error handling: 7/10, control flow (loops/conditions): 8/10
@@ -56,37 +56,37 @@ Every Saturday I answer these 5 questions:
 - Build the Streaming Catalog Manager using proper OOP
 - Maybe tackle the optional Content Duration Aggregator if time allows
 
-**Week 1 complete? Almost — 4 out of 5 projects done. Moving to Week 2.**
+**Week 1 complete? Almost - 4 out of 5 projects done. Moving to Week 2.**
 
 ---
 
-### Block 1 — Week 2 — Entry 2 | March 3-4, 2026
+### Block 1 - Week 2 - Entry 2 | March 3-4, 2026
 
 **Theme:** OOP, File I/O & Error Handling  
 **Hours logged:** ~5 hours across 2 days
 
 **What I actually learned:**
-- Classes vs objects — the blueprint vs the actual thing built from it
-- `__init__` method — the constructor that runs when you create an object
-- `self` — refers to the specific instance (THIS object)
-- Methods — functions that belong to a class
+- Classes vs objects - the blueprint vs the actual thing built from it
+- `__init__` method - the constructor that runs when you create an object
+- `self` - refers to the specific instance (THIS object)
+- Methods - functions that belong to a class
 - When to put code in Content class vs Catalog class (single item vs collection)
-- JSON persistence — saving/loading data so it survives between runs
-- Dictionary counting pattern — checking if key exists, then add 1 or create new
-- `**kwargs` — passing flexible named arguments to functions
+- JSON persistence - saving/loading data so it survives between runs
+- Dictionary counting pattern - checking if key exists, then add 1 or create new
+- `**kwargs` - passing flexible named arguments to functions
 - try/except for handling missing files gracefully
 
 **The hardest thing this week:**
-> Understanding WHERE code should go. I tried to put a counting method in the Content class when it should've been in Catalog. It clicked when I realized: Content = ONE show, Catalog = MANY shows. Also struggled with the genre counting logic at first — had to really think through the if/else pattern for dictionaries. But once I got it, it made total sense.
+> Understanding WHERE code should go. I tried to put a counting method in the Content class when it should've been in Catalog. It clicked when I realized: Content = ONE show, Catalog = MANY shows. Also struggled with the genre counting logic at first - had to really think through the if/else pattern for dictionaries. But once I got it, it made total sense.
 
 **What I built:**
-- `content.py` — Content class with is_movie(), matches_genre(), get_type() methods
-- `catalog.py` — Catalog class that manages a collection of Content objects
+- `content.py` - Content class with is_movie(), matches_genre(), get_type() methods
+- `catalog.py` - Catalog class that manages a collection of Content objects
 - Features: add, remove, search (with multiple filters), save to JSON, load from JSON, duplicate prevention, statistics dashboard
-- The stats dashboard was mostly me — wrote the movie/episode counting and genre dict logic myself with guidance
+- The stats dashboard was mostly me - wrote the movie/episode counting and genre dict logic myself with guidance
 
 **Moment I'm most proud of:**
-> Writing the genre counting logic myself. Even though I referenced the explanation, I understood WHY each line worked. When I saw the output with the genre breakdown, that felt like a real accomplishment. Also realizing I had built something that actually persists data — that's not a toy anymore.
+> Writing the genre counting logic myself. Even though I referenced the explanation, I understood WHY each line worked. When I saw the output with the genre breakdown, that felt like a real accomplishment. Also realizing I had built something that actually persists data - that's not a toy anymore.
 
 **Honest self-assessment:**
 > OOP concepts: 6/10 (understand basics but still building intuition), loops: 8/10, dictionaries: 7/10, file I/O: 8/10, knowing where code belongs: 5/10 (need more practice)
@@ -95,16 +95,16 @@ Every Saturday I answer these 5 questions:
 > Realized halfway through that I'm doing OOP without solid fundamentals. It's like learning Formula 1 racing before learning to drive. I can follow along and build things with guidance, but I couldn't write this from scratch yet. Need to go back and drill the basics more.
 
 **Plan for this week:**
-- Do fundamentals practice exercises (loops, dicts, functions — no OOP)
+- Do fundamentals practice exercises (loops, dicts, functions - no OOP)
 - Solidify the concepts before Week 3
 - Make sure I can write basic programs WITHOUT looking anything up
 - Then start Week 3: APIs & Data Pipelines
 
-**Week 2 complete? (Y/N):** Y — but with the understanding that I need fundamentals practice before moving forward
+**Week 2 complete? (Y/N):** Y - but with the understanding that I need fundamentals practice before moving forward
 
 ---
 
-### Week 3 — Entry 3 | March 10-11, 2026
+### Week 3 - Entry 3 | March 10-11, 2026
 
 **Theme:** APIs, Data Pipelines & Real-Time Data  
 **Hours logged:** ~4 hours across 2 days
@@ -123,13 +123,13 @@ Every Saturday I answer these 5 questions:
 > The NoneType error in the extraction function. I thought I fixed it with `show_data = raw_show.get('show') or {}` but kept getting errors. Turned out ANOTHER field (`network`) was also returning None. Learned that you have to check for None at EVERY level of nested data, not just the first one. This is exactly the kind of messy data I deal with at my current job - different providers return None in different places.
 
 **What I built:**
-- `movie_fetcher.py` — Full-featured movie collector with OMDB API integration
+- `movie_fetcher.py` - Full-featured movie collector with OMDB API integration
   - Search and add movies
   - Filter by rating
   - Remove from collection
   - Export reports
   - Save/load JSON persistence
-- `epg_pipeline.py` — Production-quality EPG data pipeline
+- `epg_pipeline.py` - Production-quality EPG data pipeline
   - Fetches live schedule from TVmaze API (115 shows)
   - Extracts 10 clean fields from 15+ messy nested fields
   - Validates required fields and data quality
@@ -151,17 +151,17 @@ Every Saturday I answer these 5 questions:
 - Feature engineering prep for Project 1
 - Start thinking about multi-source data reconciliation
 
-**Week 3 complete? (Y/N):** Y — built 2 real pipelines, ready for data analysis!
+**Week 3 complete? (Y/N):** Y - built 2 real pipelines, ready for data analysis!
 
 ---
 
-### Week 4 — Entry 4 | March 13-14, 2026
+### Week 4 - Entry 4 | March 13-14, 2026
 
 **Theme:** Pandas & Data Analysis Mastery  
 **Hours logged:** ~6 hours across 2 days
 
 **What I actually learned:**
-- DataFrames — loading, exploring, filtering at scale
+- DataFrames - loading, exploring, filtering at scale
 - Grouping & aggregation (`.groupby().agg()`)
 - Boolean filtering with complex conditions
 - Creating new columns based on conditions
@@ -170,14 +170,14 @@ Every Saturday I answer these 5 questions:
 - Error handling with try/except
 
 **The hardest thing this week:**
-> Learning to THINK in code logic, not just copy syntax. Exercise 3 was brutal — I struggled to write code independently. But then Exercise 4 happened: I wrote the entire script from scratch based on MY OWN LOGIC. That was the breakthrough.
+> Learning to THINK in code logic, not just copy syntax. Exercise 3 was brutal - I struggled to write code independently. But then Exercise 4 happened: I wrote the entire script from scratch based on MY OWN LOGIC. That was the breakthrough.
 
 **What I built:**
 - Network Analysis Dashboard (groupby/agg mastery)
 - Primetime Analyzer (boolean filtering, new columns)
 - Data Quality Report Tool (automated validation, dual output)
 - Morning Programming Analyzer (self-written from logic!)
-- EPG Analytics Dashboard — 5 business questions on real TVmaze data:
+- EPG Analytics Dashboard - 5 business questions on real TVmaze data:
   1. Network Dominance (Top 10 by show count)
   2. Runtime Analysis (avg/min/max for networks with 5+ shows)
   3. Show Type Breakdown (% of schedule per type)
@@ -193,37 +193,85 @@ Every Saturday I answer these 5 questions:
 
 **Aha moment:**
 > Understanding the difference between `print()` and `return`, and between `print()` and `f.write()`. The `log()` function pattern clicked: same data, three destinations (screen, memory, file).
-> Debugged 3 errors independently in the dashboard — recursion error (function calling itself), type error (Series can't concatenate with string, fixed with str()), and path error. Each one solved without being given the answer.
+> Debugged 3 errors independently in the dashboard - recursion error (function calling itself), type error (Series can't concatenate with string, fixed with str()), and path error. Each one solved without being given the answer.
 
 **Plan for next week:**
 - NumPy fundamentals
 - More practice exercises (5-7) for muscle memory
 - Continue building portfolio depth
 
-**Week 4 complete? (Y/N):** Y — 4 tools built, solid Pandas foundation!
+**Week 4 complete? ✅** Y - 5 tools built including self-written Exercise 4 and EPG Analytics Dashboard. Solid Pandas foundation, starting to think in code patterns not just syntax.
 
 ---
 
-### Block 2 — Entry 5 | Week 5 | [DATE]
+### Week 5 - Entry 5 | March 18-21, 2026
 
-**Theme:** Files, errors & modules  
-**Hours logged:** ___ hours
+**Theme:** NumPy & Statistical Foundations  
+**Hours logged:** ~8 hours across 3 sessions
+
+**What I actually learned:**
+- ndarray vs Python list - type enforcement + contiguous memory = 15x speed improvement, measured it myself
+- Array creation: zeros, ones, arange, linspace - and the difference between them (step size vs number of points)
+- 2D matrices - shape, comma notation indexing `[row, col]`, why it beats `[row][col]`
+- Vectorization - entire array operations at once, no loops. Ran the benchmark, saw the difference: 0.04s vs 0.003s on 1 million elements
+- Broadcasting - scalar operations on arrays just work, NumPy figures out the shape automatically
+- Statistics - mean, median, std, percentile, corrcoef - and when median matters more than mean (outliers)
+- Linear algebra - dot product, matrix multiplication, `np.linalg.norm()`
+- Cosine similarity - `dot(A,B) / (norm(A) * norm(B))` - measuring direction not magnitude
+- Categorical encoding - `.astype('category').cat.codes` to make string columns ML-ready
+- `np.column_stack()` vs `np.vstack()` - got this wrong first, figured it out
+- `lambda` functions - finally clicked when I saw them in `sorted(key=lambda x: x[1])`
+
+**The hardest thing this week:**
+> Cosine similarity. Not the formula - I could read the formula. The concept. Why are we dividing by the norm? What does "direction not magnitude" actually mean in practice? It only clicked when I drew two arrows and asked - do they point the same way? The math is just answering that question precisely. Once that landed, the rest followed naturally. Before that moment I was just copying the formula without understanding it.
+
+**What I built:**
+- Exercise 1: NumPy runtime analysis - arrays, vectorization, stats, value_counts on EPG data
+- Exercise 2: Vectorized EPG runtime calculator - end times, gap detection, scheduling holes, time conversion. No loops anywhere.
+- Exercise 3: EPG stats dashboard - runtime stats by type, airtime distribution, genre variance, network correlation. Pandas + NumPy working together.
+- Exercise 4: Cosine similarity engine - dot product, linalg.norm, lambda sorting on a sample dataset
+- Mini-project: `find_similar_shows()` - production function on real TVmaze data. 3-feature matrix (runtime, airtime, type encoded), normalization, cosine similarity, edge case handling. Saves output to file.
+
+**Moment I'm most proud of:**
+> I ran `find_similar_shows('Way Too Early')` and got Early Start with Rahel Solomon and CNN This Morning at the top. Here's the thing - I never told the algorithm anything about morning news. It just figured that out from runtime, airtime, and show type. I've been working with EPG data for 8 years, and when I saw those results, I knew the math was actually right. That moment felt like watching two parts of my brain finally talk to each other.
+
+**Honest self-assessment:**
+> NumPy arrays: 8/10 - solid, can write without looking things up. Vectorization: 9/10 - internalized, not just syntax. Statistics: 7/10 - know the operations, still building intuition for interpretation. Linear algebra: 6/10 - concept is clear, matrix operations still need practice. Cosine similarity: 7/10 - understand it, need to use it more to own it. Code cleanliness: 8/10 - catching variable naming issues before committing now.
+
+**Aha moments:**
+> Every ML prediction is `np.dot(features, weights)`. That's the whole thing. Dot products all the way down. I've been using scikit-learn as a black box for years in my head - now I know what's actually happening inside.
+
+> `axis=0` vs `axis=1` didn't click from reading about it. Took 3 exercises of getting it wrong before it stuck. That's just how it goes sometimes.
+
+> Also learned the hard way that variable names matter. Named two completely different things `norm` in the same script - one was the full normalized matrix, one was a single show's vector. Worked fine until it didn't. Caught it before committing, which is the point.
+
+**Things I figured out on my own / Googled:**
+- `np.column_stack()` - stacks arrays as columns side by side (vs vstack which stacks as rows on top of each other)
+- `idxmax()` - returns the INDEX label at the maximum value, not the value itself. Subtle but important difference.
+
+**Plan for next week:**
+- SQL refresher: WHERE vs HAVING, window functions, schedule overlap detection
+- Python `logging` module: proper production logging, not just print()
+- pytest: full depth, this is the main event of Week 6
+- Git advanced - conflict resolution
+
+**Week 5 complete? ✅** Y - 4 exercises + mini-project done. NumPy internalized, cosine similarity understood, first taste of ML math under the hood.
 
 ---
 
-### Block 2 — Entry 6 | Week 6 | [DATE]
+### Block 2 - Entry 6 | Week 6 | [DATE]
 
 **Theme:** Advanced Python + Git  
 **Hours logged:** ___ hours
 
-**Block 2 Capstone — Finance CLI:**
+**Block 2 Capstone - Finance CLI:**
 > [Describe your finance CLI app.]
 
 **Block 2 complete? (Y/N):** 
 
 ---
 
-### Block 3 — Entry 7 | Week 7 | [DATE]
+### Block 3 - Entry 7 | Week 7 | [DATE]
 
 **Theme:** Linear Algebra  
 **Hours logged:** ___ hours
@@ -233,17 +281,17 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 3 — Entry 8 | Week 8 | [DATE]
+### Block 3 - Entry 8 | Week 8 | [DATE]
 
 **Theme:** Calculus & Gradient Descent  
 **Hours logged:** ___ hours
 
-**Linear Regression from scratch — status:**
+**Linear Regression from scratch - status:**
 > [Describe where you are with this project. What was the hardest part of implementing gradient descent?]
 
 ---
 
-### Block 3 — Entry 9 | Week 9 | [DATE]
+### Block 3 - Entry 9 | Week 9 | [DATE]
 
 **Theme:** Statistics & Probability  
 **Hours logged:** ___ hours
@@ -255,7 +303,7 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 4 — Entry 10 | Week 10 | [DATE]
+### Block 4 - Entry 10 | Week 10 | [DATE]
 
 **Theme:** Pandas  
 **Hours logged:** ___ hours
@@ -265,16 +313,16 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 4 — Entry 11 | Week 11 | [DATE]
+### Block 4 - Entry 11 | Week 11 | [DATE]
 
 **Theme:** Visualization + SQL  
 **Hours logged:** ___ hours
 
 ---
 
-### Block 4 — Entry 12 | Week 12 | [DATE] 🎉
+### Block 4 - Entry 12 | Week 12 | [DATE] 🎉
 
-**Theme:** Phase 1 Capstone — EDA Project  
+**Theme:** Phase 1 Capstone - EDA Project  
 **Hours logged:** ___ hours
 
 **My EDA Project:**
@@ -284,7 +332,7 @@ Every Saturday I answer these 5 questions:
 - GitHub link: 
 
 **Phase 1 complete reflection:**
-> [This is your most important devlog entry. Look back at Week 1 you. What changed? What do you know now that seemed impossible 12 weeks ago? Write freely — minimum 100 words.]
+> [This is your most important devlog entry. Look back at Week 1 you. What changed? What do you know now that seemed impossible 12 weeks ago? Write freely - minimum 100 words.]
 
 **Phase 1 complete? (Y/N):** 
 
@@ -305,4 +353,4 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-*Phase 2 — Machine Learning devlog will start in `../phase-2-machine-learning/DEVLOG.md`*
+*Phase 2 - Machine Learning devlog will start in `../phase-2-machine-learning/DEVLOG.md`*
