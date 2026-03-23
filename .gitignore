@@ -26,4 +26,5 @@ Thumbs.db
 
 # Data outputs (optional - remove if you want to track these)
 *.json
-*.txt
+*.txt*
+*.log*
