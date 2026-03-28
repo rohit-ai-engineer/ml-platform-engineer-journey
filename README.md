@@ -36,7 +36,7 @@ Build 3 production-grade ML systems that solve real streaming/OTT problems:
 
 **Phase 1 - Foundations (7 weeks)** `[Week 6 of 7 - IN PROGRESS]`
 ```
-Phase 1: Foundations           ████████████████░░░░  Week 5 ✅ Week 6 ⏳
+Phase 1: Foundations           ████████████████████  Week 7 ✅ COMPLETE
 Phase 2: Classical ML + P1     ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 3: Time-Series + P2      ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 4: Deep Learning         ░░░░░░░░░░░░░░░░░░░░  Locked
@@ -227,7 +227,18 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 
 ## 📊 Learning Log
 
-**Latest - Week 6 in progress:** Spent yesterday going through SQL basics again. WHERE vs HAVING, PRIMARY/FOREIGN keys, JOINs, execution order, window functions. Got SQLite running with actual EPG data and wrote my first query that doesn't look like noob writing. 
+**Week 7 - Phase 1 complete:** Pure theory week. No projects, but probably the most dense session of Phase 1.
+
+Advanced Python covered encapsulation, serialization, context managers, decorators, generators, type hints, and advanced error handling. Half of these turned out to be things I'd been using since Week 3 without knowing the names like serialization with json.dump, context managers with `with open()`. The other half was genuinely new, decorators especially.
+
+System Design Thinking was the surprise. Architecture diagrams, trade-off thinking, latency vs throughput, single points of failure, ETL patterns - I kept recognising things I do at work. Different vocabulary, same decisions. 
+Eight years of operations work turns out to map directly onto system design principles.
+
+One lesson going into Phase 2: theory gets equal weight. Not after the code. Before it.
+
+Phase 2 starts now. Metadata Conflict Resolver. The problem I've been solving manually for 8 years, now in code.
+
+**Week 6 Reflection:** Spent yesterday going through SQL basics again. WHERE vs HAVING, PRIMARY/FOREIGN keys, JOINs, execution order, window functions. Got SQLite running with actual EPG data and wrote my first query that doesn't look like noob writing. 
 Today: LAG/RANK exercises, figuring out schedule overlap detection, then pytest + Git - which is apparently the whole point of Week 6.
 
 **Week 5 Reflection:** Toughest week conceptually - NumPy, linear algebra, statistics, and cosine similarity all in one week. The dot product clicked when I realised every ML prediction is `np.dot(features, weights)`. Built 4 exercises and a mini-project similarity engine on real EPG data. Breakthrough: understood WHY vectorization is faster, not just that it is.
@@ -261,4 +272,4 @@ The moment it clicked: Exercise 4, I wrote the whole thing myself,No looking at 
 
 ---
 
-_Last updated: March 22, 2026_
+_Last updated: March 28, 2026_

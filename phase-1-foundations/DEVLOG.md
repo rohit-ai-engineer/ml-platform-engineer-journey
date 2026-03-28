@@ -16,11 +16,11 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-## 🗓️ Phase 1 · Foundations
+## 🗓️ Phase 1 · Foundations (Weeks 1-7)
 
 ---
 
-### Block 1 - Entry 1 | Week 1 | March 2-3, 2026
+### Week 1 - Entry 1 | March 2-3, 2026
 
 **Theme:** Python fundamentals - accelerated track  
 **Hours logged:** ~6 hours across 3 days
@@ -60,7 +60,7 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 1 - Week 2 - Entry 2 | March 3-4, 2026
+### Week 2 - Entry 2 | March 3-4, 2026
 
 **Theme:** OOP, File I/O & Error Handling  
 **Hours logged:** ~5 hours across 2 days
@@ -259,84 +259,241 @@ Every Saturday I answer these 5 questions:
 
 ---
 
-### Block 2 - Entry 6 | Week 6 | [DATE]
+### Week 6 - Entry 6 | March 22-23, 2026
 
-**Theme:** Advanced Python + Git  
-**Hours logged:** ___ hours
+**Theme:** SQL, Testing & Version Control  
+**Hours logged:** ~6 hours across 2 sessions
 
-**Block 2 Capstone - Finance CLI:**
-> [Describe your finance CLI app.]
+**What I actually learned:**
+- SQL execution order - why WHERE runs before SELECT, why HAVING runs after GROUP BY
+- Window functions: RANK(), LEAD(), LAG() - querying rows relative to other rows without collapsing the dataset
+- CTEs - breaking complex queries into named steps instead of one unreadable block
+- Schedule overlap detection in SQL using LAG() to compare each show's start time against the previous show's end time
+- pytest fundamentals - unit tests, fixtures, parametrize, data validation tests
+- Python logging module - replacing print() with proper log levels (DEBUG, INFO, WARNING, ERROR)
+- Git conflict resolution - what a merge conflict actually looks like, how to resolve it manually
 
-**Block 2 complete? (Y/N):** 
+**The hardest thing this week:**
+> Window functions, the concept of operating on a row while still seeing the full dataset felt backwards at first. LAG() specifically - understanding that it's pulling the previous row's value into the current row clicked once I applied it to schedule overlap detection. 
+Once that landed it made total sense: I'm not grouping, I'm sliding.
 
----
+**What I built:**
+- EPG SQLite database - normalized the Week 3 pipeline output into a real relational schema
+- Schedule overlap detector - LAG() query that flags shows where start time < previous end time
+- pytest test suite - 7 tests covering validate_show(), extract_show_info(), data quality checks, fixtures for reusable test data
+- Production logging - replaced all print() calls in pipeline with structured log levels
 
-### Block 3 - Entry 7 | Week 7 | [DATE]
+**Moment I'm most proud of:**
+> The overlap detection query. Wrote it myself using LAG() after understanding the concept. It found 3 real scheduling conflicts in the TVmaze data. That's the kind of thing I check manually at work every week and I just automated it in 8 lines of SQL.
 
-**Theme:** Linear Algebra  
-**Hours logged:** ___ hours
+**Honest self-assessment:**
+> SQL basics: 9/10, Window functions: 7/10 (understand, need more reps), CTEs: 8/10, pytest: 7/10, Logging: 8/10, Git conflicts: 7/10
 
-**3Blue1Brown moment that blew my mind:**
-> [What visual explanation made things click?]
+**Aha moment:**
+> pytest fixtures. Writing the test data once and reusing it across 7 tests instead of copy-pasting the same dict. That's the first time testing felt like it had actual structure rather than just checking things.
 
----
+**Plan for next week:**
+- Week 7: Advanced Python + System Design Thinking
+- Encapsulation, serialization (deferred from Week 2)
+- Decorators, generators, context managers, type hints
+- Architecture diagrams, trade-off thinking, ETL patterns
 
-### Block 3 - Entry 8 | Week 8 | [DATE]
-
-**Theme:** Calculus & Gradient Descent  
-**Hours logged:** ___ hours
-
-**Linear Regression from scratch - status:**
-> [Describe where you are with this project. What was the hardest part of implementing gradient descent?]
-
----
-
-### Block 3 - Entry 9 | Week 9 | [DATE]
-
-**Theme:** Statistics & Probability  
-**Hours logged:** ___ hours
-
-**Bayes' theorem in my own words:**
-> [Explain it like you'd explain it to a friend over coffee.]
-
-**Block 3 complete? (Y/N):** 
-
----
-
-### Block 4 - Entry 10 | Week 10 | [DATE]
-
-**Theme:** Pandas  
-**Hours logged:** ___ hours
-
-**Most useful Pandas operation I learned:**
-> 
+**Week 6 complete? ✅** Y - SQL, testing, and Git done. Window functions and pytest were the highlights. Phase 1 one week from done.
 
 ---
 
-### Block 4 - Entry 11 | Week 11 | [DATE]
+### Week 7 - Entry 7 | March 27-28, 2026
 
-**Theme:** Visualization + SQL  
-**Hours logged:** ___ hours
+**Theme:** Advanced Python & System Design Thinking  
+**Hours logged:** ~2 hours
+
+**What I actually learned:**
+
+Advanced Python
+- Encapsulation: private attributes with `__double_underscore`, getters to read them, setters to update them with validation rules
+- Serialization: converting Python objects to JSON and back. Turns out I've been doing this since Week 3 with `json.dump()` and `json.load()`. Just didn't have a name for it.
+- Context managers: same story. `with open()` has been a context manager this whole time. `__enter__` runs at the start, `__exit__` runs at the end no matter what.
+- Decorators: a function that wraps another function. `@log_stage` adds logging without touching the original function. The `wrapper` layer was the hardest part to visualise.
+- Generators: `yield` instead of `return`. One item at a time, memory stays flat, use when the dataset is too large to load all at once.
+- Type hints: `def fetch_schedule(country_code: str, date: str) -> list[dict]:` tells the next engineer exactly what goes in and comes out. `mypy` checks them before runtime.
+- Advanced error handling: specific except blocks per error type, `finally` for cleanup that always runs, `raise` to pass errors up the chain.
+
+System Design Thinking
+- Architecture diagrams: drew the Metadata Conflict Resolver architecture on paper twice (really on paper). First attempt was missing the Normalize step before the ML model. Once I understood why the model needs all providers in the same format before it can compare anything, the diagram fixed itself.
+- Trade-off thinking: there's no universally right answer, just the right answer for the situation. A live schedule update hitting every 15 minutes needs a fast model even if it's slightly less accurate, wrong metadata gets corrected next cycle anyway. A $2 million content licensing call that happens once a month? Take the time, run the complex model, get it right. Same pipeline, completely different priorities. The decision changes based on what failure actually costs.
+- Latency vs throughput: independent metrics. More workers raises throughput but doesn't make each item process faster. like for live sports metadata, latency is everything. A score update that arrives 10 minutes late is useless. For overnight batch runs, throughput wins - get through 50,000 shows before morning.
+- Single point of failure: one component that takes everything down if it fails. Fix it with redundancy and failover. if source API goes down and the entire pipeline stops, that's a single point of failure. The fix is redundancy: a backup source that kicks in automatically when the primary fails. At work we don't rely on one EPG provider for exactly this reason.If one drops, the others cover. I've been building around single points of failure for years without calling it that.
+- ETL pipeline architecture: Extract, Transform, Load. Turns out I've been building ETL pipelines since Week 3 and calling them "the pipeline". The naming isn't the insight though. The insight is why the order is non-negotiable: bad data caught at validation is an internal problem. Bad data that makes it through validation, gets transformed, gets loaded into the database and ends up in a client feed is a customer escalation. Fail fast, fail early. Catch it at the gate.
+Also learned that production pipelines don't live in one giant file like ingest.py, validate.py, transform.py, load.py, each with one job. When something breaks at 3am, you go to one file, not 800 lines of spaghetti.
+
+**The hardest thing this week:**
+> Decorators. Specifically the layering: `log_stage` returns `wrapper`, `wrapper` calls `func`, and `func.__name__` is the original function being wrapped - not the decorator. Took several passes before I stopped reading it backwards.
+
+**What I built:**
+> Theory-only week. No code projects. Drew the Metadata Conflict Resolver architecture on paper: Providers → Validate → Normalize → ML Model → confidence diamond → HITL or Transform → PostgreSQL. 
+Drew it twice: once wrong (missing Normalize), once right after understanding why normalization has to happen before the ML model sees the data.
+
+**Moment I'm most proud of:**
+> The System Design session. Almost everything covered - staging environments, schema validation on onboarding, provider isolation, failover which I already do at work. I've been doing system design for last 8 years, I just didn't have the vocabulary for it until now.
+
+**Honest self-assessment:**
+> Encapsulation: 8/10, Serialization: 9/10 (was already doing it), Context managers: 8/10 (was already using them), Decorators: 6/10 (concept clear, need reps), Generators: 7/10, Type hints: 8/10, System design principles: 8/10 (domain knowledge helps a lot here)
+
+**Aha moments:**
+> Decorators and context managers both clicked the same way: I'd been using the patterns without knowing their names. `with open()` every week since Week 3. `json.dump()` since Week 3, named things now. That changes how I read other people's code.
+
+> System design isn't a new skill. It's the same decisions I make at work, just with different names and drawn on a whiteboard instead of written in an SOP.
+
+**Plan for next week:**
+- Phase 2 kickoff - Week 8: ML Fundamentals & Feature Engineering
+- Supervised vs unsupervised, overfitting, bias-variance tradeoff
+- Decision trees, Random Forest, classification metrics
+- Feature engineering masterclass
+
+**Week 7 complete? ✅** Y - Advanced Python and System Design Thinking done. Phase 1 complete. 7 weeks, 17 projects, ~75 commits. Phase 2 starts now.
 
 ---
 
-### Block 4 - Entry 12 | Week 12 | [DATE] 🎉
+## 🗓️ Phase 2 · Classical ML + Project 1 (Weeks 8-14)
 
-**Theme:** Phase 1 Capstone - EDA Project  
+---
+
+### Week 8 - Entry 8 | [DATE]
+
+**Theme:** ML Fundamentals & Feature Engineering  
 **Hours logged:** ___ hours
 
-**My EDA Project:**
-- Dataset chosen: 
-- Key findings: 
-- Visualizations created: 
-- GitHub link: 
+**What I actually learned:**
 
-**Phase 1 complete reflection:**
-> [This is your most important devlog entry. Look back at Week 1 you. What changed? What do you know now that seemed impossible 12 weeks ago? Write freely - minimum 100 words.]
+**The hardest thing this week:**
 
-**Phase 1 complete? (Y/N):** 
+**What I built:**
 
-**Ready for Phase 2? (Y/N):** 
+**Moment I'm most proud of:**
+
+**Honest self-assessment:**
+
+**Aha moment:**
+
+**Plan for next week:**
+
+**Week 8 complete? (Y/N):**
+
+---
+
+### Weeks 9-10 - Entry 9 | [DATE]
+
+**Theme:** ML Fundamentals continued + Feature Engineering Toolkit  
+**Hours logged:** ___ hours
+
+**What I actually learned:**
+
+**The hardest thing this week:**
+
+**What I built:**
+
+**Moment I'm most proud of:**
+
+**Plan for next week:**
+
+**Weeks 9-10 complete? (Y/N):**
+
+---
+
+### Weeks 10-11 - Entry 10 | [DATE]
+
+**Theme:** Advanced ML, Ensemble Methods & Design Exercise 1  
+**Hours logged:** ___ hours
+
+**Design Exercise 1 - Metadata Ingestion Architecture:**
+> [Describe your architecture diagram. What trade-offs did you make? What feedback did you get?]
+
+**Weeks 10-11 complete? (Y/N):**
+
+---
+
+### Weeks 12-14 - Entry 11 | [DATE]
+
+**Theme:** PROJECT 1 - Metadata Conflict Resolver  
+**Hours logged:** ___ hours
+
+**Project status:**
+> [Where are you with the build? What's working, what broke, what surprised you?]
+
+**MLflow experiment results:**
+> [Which model won - Logistic Regression, Random Forest, or XGBoost? Why?]
+
+**HITL dashboard:**
+> [How did the human-in-the-loop approval flow work?]
+
+**Phase 2 complete reflection:**
+> [Look back at Week 7 you. What changed?]
+
+**Phase 2 complete? (Y/N):**  
+**Ready for Phase 3? (Y/N):**
+
+---
+
+## 🗓️ Phase 3 · Time-Series + Project 2 (Weeks 15-19)
+
+---
+
+### Weeks 15-16 - Entry 12 | [DATE]
+
+**Theme:** Time-Series Analysis & System Design 2  
+**Hours logged:** ___ hours
+
+**Weeks 15-16 complete? (Y/N):**
+
+---
+
+### Weeks 17-19 - Entry 13 | [DATE]
+
+**Theme:** PROJECT 2 - Content Velocity Predictor  
+**Hours logged:** ___ hours
+
+**Phase 3 complete? (Y/N):**
+
+---
+
+## 🗓️ Phase 4 · Deep Learning Foundations (Weeks 20-21)
+
+---
+
+### Weeks 20-21 - Entry 14 | [DATE]
+
+**Theme:** PyTorch, Neural Networks, LLMs & Embeddings  
+**Hours logged:** ___ hours
+
+**Phase 4 complete? (Y/N):**
+
+---
+
+## 🗓️ Phase 5 · MLOps + Project 3 (Weeks 22-28)
+
+---
+
+### Weeks 22-24 - Entry 15 | [DATE]
+
+**Theme:** Docker, Kubernetes, Kafka, FastAPI  
+**Hours logged:** ___ hours
+
+**Weeks 22-24 complete? (Y/N):**
+
+---
+
+### Weeks 25-28 - Entry 16 | [DATE]
+
+**Theme:** PROJECT 3 - Live Event Anomaly Guardian  
+**Hours logged:** ___ hours
+
+**Project status:**
+
+**Phase 5 complete reflection:**
+> [This is your most important devlog entry. Look back at Week 1 you. What changed? Write freely - minimum 100 words.]
+
+**Phase 5 complete? (Y/N):**  
+**Ready to apply? (Y/N):**
 
 ---
 
@@ -344,13 +501,11 @@ Every Saturday I answer these 5 questions:
 
 | Metric | Value |
 |--------|-------|
-| Total weeks | 12 |
-| Total hours logged | ___ |
-| Projects built | ___ |
-| GitHub commits | ___ |
-| Toughest concept | ___ |
-| Most fun project | ___ |
+| Total weeks | 7 |
+| Total hours logged | ~37 |
+| Projects built | 17 |
+| GitHub commits | ~75 |
+| Toughest concept | Cosine similarity (Week 5) / Decorators (Week 7) |
+| Most fun project | find_similar_shows() mini-project (Week 5) |
 
 ---
-
-*Phase 2 - Machine Learning devlog will start in `../phase-2-machine-learning/DEVLOG.md`*
