@@ -25,7 +25,7 @@ Thumbs.db
 .idea/
 
 # Data outputs (optional - remove if you want to track these)
-*.json
+data/raw/*.json
 *.txt*
 *.log*
 *.txt
