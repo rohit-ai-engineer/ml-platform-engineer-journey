@@ -53,13 +53,13 @@ r_square = r2_score(y_test, predictions)
 cv_score_r2 = cross_val_score(model, X, y, cv =5, scoring='r2')
 cv_score_mse = cross_val_score(model, X, y, cv =5, scoring='neg_mean_squared_error')
 
-# 10. Checking the outcomes
-# print(f"CV R² scores: {cv_score_r2}")
-# print(f"CV R² mean: {cv_score_r2.mean():.4f}")
-# print(f"CV MSE scores: {-cv_score_mse}")
-# print(f"CV MSE mean: {(-cv_score_mse).mean():.4f}")
+# 10. checking the outcomes
+print(f"CV R² scores: {cv_score_r2}")
+print(f"CV R² mean: {cv_score_r2.mean():.4f}")
+print(f"CV MSE scores: {-cv_score_mse}")
+print(f"CV MSE mean: {(-cv_score_mse).mean():.4f}")
 
-# 11. Checking what did the model actually learn
+# 11. checking What did the model actually learn
 print(f"Coefficients: {model.coef_}")
 print(f"Feature names: {X.columns.tolist()}")
 print(f"Intercept: {model.intercept_:.4f}")
