@@ -3,6 +3,7 @@ import os
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
+# 1. Load data
 base_dir = os.path.dirname(os.path.abspath(__file__))
 filepath = os.path.join(base_dir,"..","data","raw","tmdb_popular_shows.json")
 
@@ -10,6 +11,8 @@ with open(filepath,'r') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
+
+# 2. Define X (features) and y (target)
 y = df['vote_average']
 
 first_air_date_modified = pd.to_datetime(df['first_air_date'])
@@ -19,6 +22,7 @@ df['unix_first_air_date'] = unix_first_air_date
 
 X = df [['popularity','vote_count','unix_first_air_date']]
 
+# 3. Train / Test split
 X_train, X_test, y_train, y_test = train_test_split(
 X, y, 
 test_size=0.2, 
