@@ -33,7 +33,7 @@ random_state=42
 )
 
 # 5. Initialize and Train the model
-model = RandomForestClassifier()
+model = RandomForestClassifier(random_state=42)
 model.fit(X_train, y_train)
 
 # 6. Make predictions on test set
