@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![Phase](https://img.shields.io/badge/Phase-1%20Foundations-purple)
+![Phase](https://img.shields.io/badge/Phase-2%20Classical%20ML-turquoise)
 
 **Never coded before. Building in public until I land an ML Platform Engineer role at a top streaming platform.**
 
@@ -61,12 +62,12 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 ---
 
 ### Phase 2: Classical ML + Project 1 (Weeks 8-14)
-**Goal:** Build the Metadata Conflict Resolver
+**Goal:** Build the Metadata Conflict Resolver  
 
-**Week 8:** ML Fundamentals + Feature Engineering ✅
-**Week 9:** Gaps coverage + Mini-project Feature Engineering Toolkit ⏳
-**Weeks 10-11:** Advanced ML + Design Exercise 1
-**Weeks 12-14:** PROJECT 1 - Metadata Conflict Resolver
+**Week 8:** ML Fundamentals + Feature Engineering ✅  
+**Week 9:** Gaps coverage + Mini-project Feature Engineering Toolkit ⏳  
+**Weeks 10-11:** Advanced ML + Design Exercise 1  
+**Weeks 12-14:** PROJECT 1 - Metadata Conflict Resolver  
 
 **Skills:**
 - scikit-learn (Random Forest, XGBoost)
