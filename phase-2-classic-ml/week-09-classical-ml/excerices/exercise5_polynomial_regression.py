@@ -18,9 +18,9 @@ with open (filepath,'r') as f:
 df = pd.DataFrame(data)
 
 # 2. Defining variables
-X = df['vote_count'].values.reshape(-1,1)
+X = df['vote_count'].values.reshape(-1,1) # type: ignore
 y = df['vote_average']
-X_plot = np.linspace(X.min(), X.max(), 300).reshape(-1, 1)
+X_plot = np.linspace(X.min(), X.max(), 300).reshape(-1, 1) # type: ignore
 
 # 3. Train/Test split 80/20
 X_train, X_test, y_train, y_test = train_test_split(
