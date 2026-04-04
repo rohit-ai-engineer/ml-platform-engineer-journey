@@ -37,7 +37,7 @@ Build 3 production-grade ML systems that solve real streaming/OTT problems:
 **Phase 1 - Foundations (7 weeks)** `[Week 6 of 7 - IN PROGRESS]`
 ```
 Phase 1: Foundations           ████████████████████  Week 7 ✅ COMPLETE
-Phase 2: Classical ML + P1     ░░░░░░░░░░░░░░░░░░░░  Locked
+Phase 2: Classical ML + P1     ████░░░░░░░░░░░░░░░░  Week 8 ✅
 Phase 3: Time-Series + P2      ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 4: Deep Learning         ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░░░░░  Locked
@@ -55,13 +55,18 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 **Week 3:** APIs, data pipelines, real-time data fetching ✅  
 **Week 4:** Pandas, data analysis, feature engineering ✅  
 **Week 5:** NumPy, linear algebra, stats fundamentals ✅  
-**Week 6:** SQL, Testing & Version Control ⏳  
-**Week 7:** Advanced Python + System Design Thinking (basics)  
+**Week 6:** SQL, Testing & Version Control ✅  
+**Week 7:** Advanced Python + System Design Thinking (basics) ✅  
 
 ---
 
 ### Phase 2: Classical ML + Project 1 (Weeks 8-14)
 **Goal:** Build the Metadata Conflict Resolver
+
+**Week 8:** ML Fundamentals + Feature Engineering ✅
+**Week 9:** Gaps coverage + Mini-project Feature Engineering Toolkit ⏳
+**Weeks 10-11:** Advanced ML + Design Exercise 1
+**Weeks 12-14:** PROJECT 1 - Metadata Conflict Resolver
 
 **Skills:**
 - scikit-learn (Random Forest, XGBoost)
@@ -222,12 +227,31 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 | EPG Stats Dashboard | W5 | Python, NumPy, Pandas | ✅ Done | Runtime stats, airtime distribution, genre variance, correlation |
 | Cosine Similarity Engine | W5 | Python, NumPy | ✅ Done | Show similarity using dot product and vector normalization |
 | Content Similarity Engine | W5 | Python, NumPy, Pandas | ✅ Done | find_similar_shows() on real EPG data - mini-project capstone |
+| TMDB Fetcher | W8 | Python, requests | ✅ Done | Popular shows API fetcher with incremental saves and dedup. 940 shows. |
+| Exercise 1 - Data Splitting | W8 | Python, scikit-learn | ✅ Done | X/y definition, 80/20 train/test split |
+| Exercise 2 - Linear Regression | W8 | scikit-learn, NumPy | ✅ Done | Regression on vote_average, MSE/RMSE/R², cross-validation |
+| Exercise 3 - Classification | W8 | scikit-learn, matplotlib | ✅ Done | Random Forest, confusion matrix, ROC curve AUC=0.73 |
+| Exercise 4 - Feature Engineering | W8 | Pandas, scikit-learn | ✅ Done | One-hot, genre mapping, interaction features, date features, scaling |
 
 ---
 
 ## 📊 Learning Log
 
-**Week 7 - Phase 1 complete:** Pure theory week. No projects, but probably the most dense session of Phase 1.
+**Week 8 - Phase 2 begins:**
+First real ML week done. 
+
+Built linear regression, Random Forest classification and a full feature engineering pipeline on 940 TMDB shows.
+ 
+The R² of 0.087 on vote_average didn't surprise me, I'd already figured out it would be low. Ratings come from content quality, cast, direction and none of that's in the dataset. The model just confirmed what I already suspected, which is actually the point - "Know your features before you train."
+ 
+Switching to classification: "is_high_quality" or not and the same weak features suddenly gave AUC = 0.73. Same data but better problem framing which resulted in much more usable output. 
+That gap between 0.087 and 0.73 is almost entirely about how you set up the question.
+ 
+The unexpected part came at the end of the week when I checked the roadmap and realized how much got skipped. Polynomial regression, regularization, logistic regression, decision trees, target encoding, feature leakage, the whole Applied ML Decision Framework all skipped but nevertheless in Week 9 I am going to be catching up on all of that before the mini-project.
+
+I'm not sure if that's a curriculum problem or just how learning actually goes. well either way the habit of checking is now part of the process.
+
+**Week 7 Reflection** Pure theory week. No projects, but probably the most dense session of Phase 1.
 
 Advanced Python covered encapsulation, serialization, context managers, decorators, generators, type hints, and advanced error handling. Half of these turned out to be things I'd been using since Week 3 without knowing the names like serialization with json.dump, context managers with `with open()`. The other half was genuinely new, decorators especially.
 
@@ -272,4 +296,4 @@ The moment it clicked: Exercise 4, I wrote the whole thing myself,No looking at 
 
 ---
 
-_Last updated: March 28, 2026_
+_Last updated: April 4, 2026_
