@@ -43,7 +43,7 @@ This was deliberate. Before building with good features, it's worth seeing what 
 
 R² = 0.087 means the model is barely better than just predicting the average for every show. That's the baseline to beat before anything is worth deploying.
 
-What would actually predict vote_average? Genre, cast, production budget, critic reviews, word-of-mouth sentiment. None of which exist in this dataset. The lesson: know your features before you train anything.
+What would actually predict vote_average? Genre, cast, production budget, critic reviews, word-of-mouth sentiment and none of which exist in this dataset. The lesson: "know your features before you train anything."
 
 ---
 
