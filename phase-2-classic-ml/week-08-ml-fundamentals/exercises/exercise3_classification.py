@@ -39,19 +39,19 @@ model.fit(X_train, y_train)
 # 6. Make predictions on test set
 predictions = model.predict(X_test)
 
-# 6. Calculate Confusion Matrix
+# 7. Calculate Confusion Matrix
 c_matrix = confusion_matrix(y_test, predictions)
 print(f"Confusion Matrix score: {c_matrix}")
 
-# 7. Calculate Classification Report
+# 8. Calculate Classification Report
 c_report = classification_report(y_test, predictions)
 print(f"Classification Report: {c_report}")
 
-# 8. Calculate ROC Curve
+# 9. Calculate ROC Curve
 y_proba = model.predict_proba(X_test)[:, 1]
 r_curve = roc_curve(y_test, y_proba)
 
-# 9. Plotting ROC
+# 10. Plotting ROC
 fpr, tpr, thresholds = roc_curve(y_test, y_proba)
 auc_score = auc(fpr, tpr)
 
