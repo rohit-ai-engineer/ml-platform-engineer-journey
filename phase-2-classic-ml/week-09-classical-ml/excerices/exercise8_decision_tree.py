@@ -74,8 +74,4 @@ plot_tree(model, feature_names=X.columns,
 plt.savefig(os.path.join(BASEDIR, '..', 'results', 'decision_tree.png'))
 plt.show()
 
-
-git add ./phase-2-classic-ml/week-09-classical-ml/excerices/exercise8_decision_tree.py ./phase-2-classic-ml/week-09-classical-ml/results/roc_curve_decision_tree.png ./phase-2-classic-ml/week-09-classical-ml/results/decision_tree.png
-
-
 ./phase-2-classic-ml/week-09-classical-ml/excerices
