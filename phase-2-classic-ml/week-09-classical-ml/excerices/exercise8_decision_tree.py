@@ -69,7 +69,7 @@ plt.savefig(os.path.join(BASEDIR, '..', 'results', 'roc_curve_decision_tree.png'
 
 # 13. Plot the tree
 plt.figure(figsize=(15, 8))
-plot_tree(model, feature_names=X.columns, 
+plot_tree(model, feature_names=X.columns , 
           class_names=['Low', 'High'], filled=True) # type: ignore
-plt.savefig(os.path.join(BASEDIR, '..', 'results', 'decision_tree.png'))
+plt.savefig(os.path.join(BASEDIR, '..', 'results', 'decision_tree.png')) 
 plt.show()
