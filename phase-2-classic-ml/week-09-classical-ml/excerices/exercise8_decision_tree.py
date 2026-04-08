@@ -70,12 +70,6 @@ plt.savefig(os.path.join(BASEDIR, '..', 'results', 'roc_curve_decision_tree.png'
 # 13. Plot the tree
 plt.figure(figsize=(15, 8))
 plot_tree(model, feature_names=X.columns, 
-          class_names=['Low', 'High'], filled=True)
+          class_names=['Low', 'High'], filled=True) # type: ignore
 plt.savefig(os.path.join(BASEDIR, '..', 'results', 'decision_tree.png'))
 plt.show()
-
-
-git add ./phase-2-classic-ml/week-09-classical-ml/excerices/exercise8_decision_tree.py ./phase-2-classic-ml/week-09-classical-ml/results/roc_curve_decision_tree.png ./phase-2-classic-ml/week-09-classical-ml/results/decision_tree.png
-
-
-./phase-2-classic-ml/week-09-classical-ml/excerices
