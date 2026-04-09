@@ -48,7 +48,7 @@ df['genre_freq'] = df['genre_freq'].fillna(0)
 X = df[['genre_freq','popularity','vote_count']]
 y = df['vote_average']
 
-# 3. Train / Test split
+# 5. Train / Test split
 X_train, X_test, y_train, y_test = train_test_split(
     X, 
     y, 
@@ -56,32 +56,32 @@ test_size=0.2,
 random_state=42
 )
 
-# 5. Linear Regression
+# 6. Linear Regression
 model = LinearRegression()
 model.fit(X_train, y_train)
 
 predict = model.predict(X_test)
 
-# 6. Calculate MSE
+# 7. Calculate MSE
 mse = mean_squared_error(y_test, predict)
 
-# 7. Calculate RMSE from RMSE
+# 8. Calculate RMSE from RMSE
 rmse = np.sqrt(mse)
 
-# 8. Calculate R²
+# 9. Calculate R²
 r_square = r2_score(y_test, predict)
 
-# 9. Calcuate Cross Validation score
+# 10. Calcuate Cross Validation score
 cv_score_r2 = cross_val_score(model, X_train, y_train, cv =5, scoring='r2')
 cv_score_mse = cross_val_score(model, X_train, y_train, cv =5, scoring='neg_mean_squared_error')
 
-# 10. checking the outcomes
+# 11. checking the outcomes
 print(f"CV R² scores: {cv_score_r2}")
 print(f"CV R² mean: {cv_score_r2.mean():.4f}")
 print(f"CV MSE scores: {-cv_score_mse}")
 print(f"CV MSE mean: {(-cv_score_mse).mean():.4f}")
 
-# 11. checking What did the model actually learn
+# 12. checking What did the model actually learn
 print(f"Coefficients: {model.coef_}")
 print(f"Feature names: {X.columns.tolist()}") # type: ignore
 print(f"Intercept: {model.intercept_:.4f}")
