@@ -178,12 +178,12 @@ Syntax recall: 6/10. Logic is there. Syntax still needs the training wheels off.
 Toolkit / class design: 8/10. Fit/transform pattern correct, unknown handling tested, pytest suite clean. First time building a proper Python package structure from scratch. Didn't feel like guessing by the end.
 
 
-**Plan for next session:**
+**Plan for next week:**
 
 Week 10–11: Ensemble methods - Random Forest deep dive, XGBoost. Clustering - K-Means, DBSCAN, elbow method. Hyperparameter tuning - GridSearch, RandomSearch. Design Exercise 1 - Metadata Ingestion Architecture.
 Also: repo refactor. Proper directory structure before Week 10 work starts.
 
-**Weeks 9-10 complete? (Y/N): Y 
+**Weeks 9 complete? (Y/N):** Y 
 PR merged and closed
 
 ### Weeks 10-11 - Entry 10 | [DATE]
