@@ -19,7 +19,7 @@ Every Saturday I answer these 5 questions:
 ### Week 8 - Entry 8 | March 30 - APril 5, 2026
 
 **Theme:** ML Fundamentals & Feature Engineering
-**Hours logged:** ~6-7 hours
+**Hours logged:** ~11-12 hours
 
 **What I actually learned:**
 

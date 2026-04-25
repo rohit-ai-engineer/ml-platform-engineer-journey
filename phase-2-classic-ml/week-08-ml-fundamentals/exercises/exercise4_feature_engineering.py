@@ -73,7 +73,6 @@ test_size=0.2,
 random_state=42
 )
 
-# Train / Test split
 scaler = StandardScaler()
 
 # fit_transform on training data - learns mean and std, then transforms
