@@ -4,7 +4,7 @@ import pytest
 import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'week-05-numpy')) 
-from mini_project_content_similarity_engine import find_similar_show,features_normalized 
+from mini_project_content_similarity_engine import find_similar_show,features_normalized #type: ignore
 
 @pytest.fixture
 

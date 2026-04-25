@@ -2,8 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
-![Phase](https://img.shields.io/badge/Phase-1%20Foundations-purple)
-![Phase](https://img.shields.io/badge/Phase-2%20Classical%20ML-turquoise)
+![Phase](https://img.shields.io/badge/Phase-1%20Foundations%20Complete-purple)
+![Phase](https://img.shields.io/badge/Phase-2%20Classical%20ML-Week%209%20Complete-turquoise)
 
 **Never coded before. Building in public until I land an ML Platform Engineer role at a top streaming platform.**
 
@@ -38,7 +38,7 @@ Build 3 production-grade ML systems that solve real streaming/OTT problems:
 **Phase 1 - Foundations (7 weeks)** `[Week 6 of 7 - IN PROGRESS]`
 ```
 Phase 1: Foundations           ████████████████████  Week 7 ✅ COMPLETE
-Phase 2: Classical ML + P1     ████░░░░░░░░░░░░░░░░  Week 8 ✅
+Phase 2: Classical ML + P1     ████████░░░░░░░░░░░░  Week 9 ✅
 Phase 3: Time-Series + P2      ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 4: Deep Learning         ░░░░░░░░░░░░░░░░░░░░  Locked
 Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░░░░░  Locked
@@ -65,7 +65,7 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 **Goal:** Build the Metadata Conflict Resolver  
 
 **Week 8:** ML Fundamentals + Feature Engineering ✅  
-**Week 9:** Gaps coverage + Mini-project Feature Engineering Toolkit ⏳  
+**Week 9:** Feature selection, Applied ML Decision Framework, Feature Engineering Toolkit ✅
 **Weeks 10-11:** Advanced ML + Design Exercise 1  
 **Weeks 12-14:** PROJECT 1 - Metadata Conflict Resolver  
 
@@ -229,16 +229,46 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 | Cosine Similarity Engine | W5 | Python, NumPy | ✅ Done | Show similarity using dot product and vector normalization |
 | Content Similarity Engine | W5 | Python, NumPy, Pandas | ✅ Done | find_similar_shows() on real EPG data - mini-project capstone |
 | TMDB Fetcher | W8 | Python, requests | ✅ Done | Popular shows API fetcher with incremental saves and dedup. 940 shows. |
-| Exercise 1 - Data Splitting | W8 | Python, scikit-learn | ✅ Done | X/y definition, 80/20 train/test split |
-| Exercise 2 - Linear Regression | W8 | scikit-learn, NumPy | ✅ Done | Regression on vote_average, MSE/RMSE/R², cross-validation |
-| Exercise 3 - Classification | W8 | scikit-learn, matplotlib | ✅ Done | Random Forest, confusion matrix, ROC curve AUC=0.73 |
-| Exercise 4 - Feature Engineering | W8 | Pandas, scikit-learn | ✅ Done | One-hot, genre mapping, interaction features, date features, scaling |
+| Data Splitting | W8 | Python, scikit-learn | ✅ Done | X/y definition, 80/20 train/test split |
+| Linear Regression | W8 | scikit-learn, NumPy | ✅ Done | Regression on vote_average, MSE/RMSE/R², cross-validation |
+| Classification | W8 | scikit-learn, matplotlib | ✅ Done | Random Forest, confusion matrix, ROC curve AUC=0.73 |
+| Feature Engineering | W8 | Pandas, scikit-learn | ✅ Done | One-hot, genre mapping, interaction features, date features, scaling |
+| Polynomial Regression | W9 | scikit-learn | ✅ Done | Linear vs polynomial degree=2, R² 0.089 → 0.124 |
+| Regularization | W9 | scikit-learn | ✅ Done | Lasso vs Ridge vs Linear, Lasso R² 0.169 wins |
+| Logistic Regression | W9 | scikit-learn | ✅ Done | Classification on is_high_quality, AUC 0.81 |
+| Decision Tree | W9 | scikit-learn | ✅ Done | plot_tree visualization, AUC 0.79 |
+| Target Encoding | W9 | Pandas, scikit-learn | ✅ Done | CV R² 0.208 - best result of the week |
+| Frequency Encoding | W9 | Pandas | ✅ Done | CV R² 0.096 vs target encoding 0.208 |
+| Normalization | W9 | scikit-learn | ✅ Done | StandardScaler, MinMaxScaler, RobustScaler compared |
+| TF-IDF | W9 | scikit-learn | ✅ Done | Text features on TMDB overviews, R² 0.083 |
+| Leakage Detection | W9 | Pandas | ✅ Done | check_leakage() - catches vote_average at 1.0 |
+| Feature Selection | W9 | scikit-learn | ✅ Done | SelectKBest, RFE, SelectFromModel - noise dropped by all three |
+| Feature Engineering Toolkit | W9 | Python, scikit-learn, pytest | ✅ Done | FeatureEngine class, fit/transform pattern, 5/5 tests passing |
+
 
 ---
 
 ## 📊 Learning Log
 
-**Week 8 - Phase 2 begins:**
+**Week 9 Reflection**
+
+Week 9 was closing gaps. Everything skipped in Week 8 got proper coverage - polynomial regression, regularization, logistic regression, decision trees, four encoding strategies, normalization, TF-IDF, and a feature leakage detector built from scratch.
+
+The result that surprised me most: target encoding on a single genre column doubled R² from 0.089 to 0.208. No model change, no tuning. Just the right signal. That's the kind of thing you can only learn by running the experiment.
+
+Logistic Regression beat Random Forest on the same dataset - AUC 0.81 vs 0.73. Simpler model, simpler data. Complexity needs a reason.
+
+The leakage detector was the moment that felt most production-ready. AUC of 1.0 on the Decision Tree triggered the instinct immediately and traced it back to vote_average leaking into features inside a minute. That reflex is now permanent.
+
+Feature selection landed differently than expected. The question isn't which features feel relevant but gut feel breaks down past 20 columns. Built a synthetic EPG conflict dataset, defined is_conflict using actual ops logic, ran all three methods. Filter and Embedded both found the exact two features used to define the target. Wrapper drifted slightly. Noise columns dropped by all three. 
+The takeaway: when Filter and Embedded agree, trust them over Wrapper.
+
+The Applied ML Decision Framework had no code. Just six questions to ask before writing any. The one that stuck - acceptable error rate is a business question, not a technical one. A recommendation model wrong 20% of the time is fine. A metadata conflict detector wrong 5% of the time means 5% of the schedule is broken on air. Different answer, same math.
+
+The Toolkit was the hardest part of the week. Not the logic - the discipline. No copy-pasting from previous exercises. Every method written from memory. Slow at first. The fit/transform pattern started feeling natural around detect_leakage. First proper Python package built from scratch - src/, tests/, data/, results/. Five pytest tests, five passing. Unknown provider handled without a crash. That last part mattered more than the passing tests.
+
+
+**Week 8 Reflection**
 First real ML week done. 
 
 Built linear regression, Random Forest classification and a full feature engineering pipeline on 940 TMDB shows.
@@ -297,4 +327,4 @@ The moment it clicked: Exercise 4, I wrote the whole thing myself,No looking at 
 
 ---
 
-_Last updated: April 4, 2026_
+_Last updated: April 25, 2026_
