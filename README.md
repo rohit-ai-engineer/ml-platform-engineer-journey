@@ -65,7 +65,7 @@ Phase 5: MLOps + P3            ░░░░░░░░░░░░░░░░�
 **Goal:** Build the Metadata Conflict Resolver  
 
 **Week 8:** ML Fundamentals + Feature Engineering ✅  
-**Week 9:** Feature selection, Applied ML Decision Framework, Feature Engineering Toolkit ✅
+**Week 9:** Feature selection, Applied ML Decision Framework, Feature Engineering Toolkit ✅  
 **Weeks 10-11:** Advanced ML + Design Exercise 1  
 **Weeks 12-14:** PROJECT 1 - Metadata Conflict Resolver  
 
