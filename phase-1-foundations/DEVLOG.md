@@ -353,7 +353,3 @@ Drew it twice: once wrong (missing Normalize), once right after understanding wh
 **Week 7 complete? ✅** Y - Advanced Python and System Design Thinking done. Phase 1 complete. 7 weeks, 17 projects, ~75 commits. Phase 2 starts now.
 
 ---
-
-## 🗓️ Phase 2 · Classical ML + Project 1 (Weeks 8-14)
-
----
