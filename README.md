@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![Phase](https://img.shields.io/badge/Phase-1%20Foundations%20Complete-purple)
-![Phase](https://img.shields.io/badge/Phase-2%20Classical%20ML-Week%209%20Complete-turquoise)
+![Phase](https://img.shields.io/badge/Phase_2-Week_9_Complete-turquoise)
 
 **Never coded before. Building in public until I land an ML Platform Engineer role at a top streaming platform.**
 
